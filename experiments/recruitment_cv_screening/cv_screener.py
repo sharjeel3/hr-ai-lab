@@ -13,7 +13,11 @@ import sys
 import json
 from pathlib import Path
 from typing import Dict, List, Any, Optional
-from datetime import datetime
+from datetime import datetime, timezone
+
+# Load environment variables from .env file
+from dotenv import load_dotenv
+load_dotenv()
 
 # Add parent directory to path for imports
 sys.path.append(str(Path(__file__).parent.parent.parent))
@@ -32,8 +36,8 @@ class CVScreener:
         """
         self.config = config
         self.llm_client = LLMClient(
-            provider=config.get('llm_provider', 'openai'),
-            model=config.get('llm_model', 'gpt-4')
+            provider=config.get('llm_provider', 'google'),
+            model=config.get('llm_model', 'gemini-2.5-flash-lite')
         )
         self.job_requirements = config.get('job_requirements', {})
         
@@ -187,7 +191,7 @@ Return only valid JSON.
             matching_result = json.loads(response)
             matching_result['candidate_id'] = qualifications.get('candidate_id')
             matching_result['candidate_name'] = qualifications.get('candidate_name')
-            matching_result['timestamp'] = datetime.utcnow().isoformat()
+            matching_result['timestamp'] = datetime.now(timezone.utc).isoformat()
             
             return matching_result
             
@@ -199,7 +203,7 @@ Return only valid JSON.
                 'overall_score': 0,
                 'recommendation': 'Error',
                 'reasoning': f'Error during matching: {str(e)}',
-                'timestamp': datetime.utcnow().isoformat()
+                'timestamp': datetime.now(timezone.utc).isoformat()
             }
     
     def screen_candidate(self, cv_data: Dict[str, Any]) -> Dict[str, Any]:
@@ -226,7 +230,7 @@ Return only valid JSON.
             'candidate_name': cv_data.get('name'),
             'qualifications': qualifications,
             'matching': matching_result,
-            'screened_at': datetime.utcnow().isoformat()
+            'screened_at': datetime.now(timezone.utc).isoformat()
         }
         
         return screening_result
@@ -261,7 +265,26 @@ Return only valid JSON.
 
 def load_cvs(dataset_path: str = "datasets/synthetic_cvs") -> List[Dict[str, Any]]:
     """Load all CV files from dataset."""
-    cv_files = list(Path(dataset_path).glob("cv_*.json"))
+    # Get project root and construct full path
+    project_root = Path(__file__).parent.parent.parent
+    
+    # Handle both absolute and relative paths
+    if Path(dataset_path).is_absolute():
+        full_path = Path(dataset_path)
+    else:
+        full_path = project_root / dataset_path
+    
+    # If path doesn't exist and doesn't start with 'datasets/', try adding it
+    if not full_path.exists() and not dataset_path.startswith('datasets/'):
+        full_path = project_root / 'datasets' / dataset_path
+    
+    logger.info(f"Looking for CVs in: {full_path}")
+    
+    if not full_path.exists():
+        logger.error(f"Path does not exist: {full_path}")
+        return []
+    
+    cv_files = list(full_path.glob("cv_*.json"))
     cvs = []
     
     for cv_file in cv_files:
@@ -271,7 +294,7 @@ def load_cvs(dataset_path: str = "datasets/synthetic_cvs") -> List[Dict[str, Any
         except Exception as e:
             logger.error(f"Error loading {cv_file}: {e}")
     
-    logger.info(f"Loaded {len(cvs)} CVs from {dataset_path}")
+    logger.info(f"Loaded {len(cvs)} CVs from {full_path}")
     return cvs
 
 
@@ -294,8 +317,16 @@ def run_cv_screening_experiment(
     logger.info("Starting CV Screening Experiment")
     
     # Load configuration
-    config = load_json_data(config_path)
+    project_root = Path(__file__).parent.parent.parent
+    config_full_path = project_root / config_path
+    config = load_json_data(str(config_full_path))
+    
+    # Get experiment config and merge with defaults
+    default_config = config.get('default_experiment_config', {})
     cv_config = config.get('experiments', {}).get('cv_screening', {})
+    
+    # Merge configs (experiment config takes precedence)
+    cv_config = {**default_config, **cv_config}
     
     # Load job requirements
     if job_requirements_path:
@@ -350,7 +381,7 @@ def run_cv_screening_experiment(
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
     
-    timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+    timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
     
     save_results(
         screening_results,

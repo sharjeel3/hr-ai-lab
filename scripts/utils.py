@@ -138,12 +138,41 @@ class LLMClient:
                 )
             )
             
+            # Check if response was blocked
+            if not response.candidates:
+                error_msg = "Response blocked - no candidates returned"
+                logger.error(f"Gemini API: {error_msg}")
+                logger.error(f"Prompt feedback: {response.prompt_feedback if hasattr(response, 'prompt_feedback') else 'N/A'}")
+                return {
+                    "response": None,
+                    "error": error_msg,
+                    "metadata": {
+                        "model": self.model,
+                        "provider": self.provider
+                    }
+                }
+            
+            # Check if content was blocked
+            candidate = response.candidates[0]
+            if not hasattr(candidate.content, 'parts') or not candidate.content.parts:
+                error_msg = f"Content blocked - finish_reason: {candidate.finish_reason.name}"
+                logger.error(f"Gemini API: {error_msg}")
+                return {
+                    "response": None,
+                    "error": error_msg,
+                    "metadata": {
+                        "model": self.model,
+                        "provider": self.provider,
+                        "finish_reason": candidate.finish_reason.name
+                    }
+                }
+            
             return {
                 "response": response.text,
                 "metadata": {
                     "model": self.model,
                     "provider": self.provider,
-                    "finish_reason": response.candidates[0].finish_reason.name if response.candidates else "UNKNOWN"
+                    "finish_reason": candidate.finish_reason.name
                 }
             }
         except ImportError:
@@ -151,7 +180,24 @@ class LLMClient:
             raise
         except Exception as e:
             logger.error(f"Google Gemini API call failed: {str(e)}")
+            logger.error(f"Error type: {type(e).__name__}")
+            import traceback
+            logger.error(f"Traceback: {traceback.format_exc()}")
             raise
+    
+    def _clean_json_response(self, text: str) -> str:
+        """Clean JSON response by removing markdown code blocks."""
+        if not text:
+            return text
+        
+        # Remove ```json and ``` markers
+        import re
+        # Pattern to match ```json ... ``` or ``` ... ```
+        pattern = r'```(?:json)?\s*\n?(.*?)\n?```'
+        match = re.search(pattern, text, re.DOTALL)
+        if match:
+            return match.group(1).strip()
+        return text.strip()
     
     def _call_openai(
         self,
@@ -240,10 +286,16 @@ class LLMClient:
             max_tokens: Maximum tokens in response
             
         Returns:
-            Generated text response
+            Generated text response (cleaned of markdown code blocks)
         """
         result = self.call(prompt, system_prompt, temperature, max_tokens)
-        return result.get("response", "")
+        response_text = result.get("response", "")
+        
+        # Clean JSON responses (remove markdown code blocks)
+        if response_text and self.provider == "google":
+            response_text = self._clean_json_response(response_text)
+        
+        return response_text
 
 
 def call_llm(

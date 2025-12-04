@@ -46,7 +46,9 @@ ENV/
 
 # Results and data
 results/*.json
+results/**/*.json
 results/*.csv
+results/**/*.csv
 results/dashboards/*
 !results/.gitkeep
 
