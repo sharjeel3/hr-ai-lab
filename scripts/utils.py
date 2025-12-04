@@ -23,27 +23,38 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# Import rate limiter
+try:
+    from .rate_limiter import get_rate_limiter
+except ImportError:
+    # Fallback for when running as script
+    import sys
+    sys.path.insert(0, str(Path(__file__).parent))
+    from rate_limiter import get_rate_limiter
+
 
 class LLMClient:
     """
     Wrapper for LLM API calls with support for multiple providers.
     """
     
-    def __init__(self, provider: str = "openai", model: str = "gpt-4"):
+    def __init__(self, provider: str = "google", model: str = "gemini-2.5-flash-lite"):
         """
         Initialize LLM client.
         
         Args:
-            provider: LLM provider (openai, anthropic, azure)
+            provider: LLM provider (google, openai, anthropic, azure)
             model: Model name
         """
         self.provider = provider
         self.model = model
         self.api_key = self._get_api_key()
+        self.rate_limiter = get_rate_limiter(model) if provider == "google" else None
         
     def _get_api_key(self) -> str:
         """Get API key from environment variables."""
         key_map = {
+            "google": "GOOGLE_API_KEY",
             "openai": "OPENAI_API_KEY",
             "anthropic": "ANTHROPIC_API_KEY",
             "azure": "AZURE_OPENAI_KEY"
@@ -74,7 +85,9 @@ class LLMClient:
             Dict containing response and metadata
         """
         try:
-            if self.provider == "openai":
+            if self.provider == "google":
+                return self._call_google(prompt, system_prompt, temperature, max_tokens)
+            elif self.provider == "openai":
                 return self._call_openai(prompt, system_prompt, temperature, max_tokens)
             elif self.provider == "anthropic":
                 return self._call_anthropic(prompt, system_prompt, temperature, max_tokens)
@@ -90,6 +103,55 @@ class LLMClient:
                     "provider": self.provider
                 }
             }
+    
+    def _call_google(
+        self,
+        prompt: str,
+        system_prompt: Optional[str],
+        temperature: float,
+        max_tokens: int
+    ) -> Dict[str, Any]:
+        """Call Google Gemini API."""
+        try:
+            import google.generativeai as genai
+            
+            # Apply rate limiting
+            if self.rate_limiter:
+                self.rate_limiter.wait()
+            
+            genai.configure(api_key=self.api_key)
+            
+            # Create model instance
+            model = genai.GenerativeModel(self.model)
+            
+            # Combine system prompt and user prompt
+            full_prompt = prompt
+            if system_prompt:
+                full_prompt = f"{system_prompt}\n\n{prompt}"
+            
+            # Generate response
+            response = model.generate_content(
+                full_prompt,
+                generation_config=genai.types.GenerationConfig(
+                    temperature=temperature,
+                    max_output_tokens=max_tokens,
+                )
+            )
+            
+            return {
+                "response": response.text,
+                "metadata": {
+                    "model": self.model,
+                    "provider": self.provider,
+                    "finish_reason": response.candidates[0].finish_reason.name if response.candidates else "UNKNOWN"
+                }
+            }
+        except ImportError:
+            logger.error("Google Generative AI package not installed. Run: pip install google-generativeai")
+            raise
+        except Exception as e:
+            logger.error(f"Google Gemini API call failed: {str(e)}")
+            raise
     
     def _call_openai(
         self,
@@ -186,8 +248,8 @@ class LLMClient:
 
 def call_llm(
     prompt: str,
-    model: str = "gpt-4",
-    provider: str = "openai",
+    model: str = "gemini-2.5-flash-lite",
+    provider: str = "google",
     **kwargs
 ) -> str:
     """

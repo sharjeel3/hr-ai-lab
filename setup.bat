@@ -36,10 +36,13 @@ if exist ".env" (
 echo.
 echo Setup complete!
 echo.
-echo To activate the virtual environment in the future, run:
-echo   .venv\Scripts\activate
-echo.
-echo To run an experiment:
-echo   python scripts\run_experiment.py --experiment cv_screening
+echo Next steps:
+echo 1. Edit .env and add your GOOGLE_API_KEY from https://aistudio.google.com/app/apikey
+echo 2. Activate the virtual environment:
+echo      .venv\Scripts\activate
+echo 3. Test the installation:
+echo      python scripts\test_gemini_integration.py
+echo 4. Run your first experiment:
+echo      python experiments\recruitment_cv_screening\cv_screener.py
 echo.
 pause

@@ -9,6 +9,11 @@ and workflow automation.
 **Note:**
 - This project used AI for production of the source code and documentation
 
+**🚀 Now powered by Google Gemini 2.5 Flash-Lite (Free Tier)**
+- All experiments use Google's latest Gemini models
+- Built-in rate limiting for free tier (15 RPM)
+- No API costs for experimentation
+- See [Gemini Migration Guide](docs/gemini-migration-guide.md) for details
 
 ---
 
@@ -487,15 +492,19 @@ source .venv/bin/activate  # macOS/Linux
 pip install -r requirements.txt
 ```
 
-3. **Configure API keys:**
+3. **Configure Google Gemini API key:**
 ```bash
 cp .env.example .env
-# Edit .env and add your API keys (OpenAI, Anthropic, etc.)
+# Edit .env and add your GOOGLE_API_KEY from https://aistudio.google.com/app/apikey
 ```
 
 4. **Run your first experiment:**
 ```bash
-python scripts/run_experiment.py --experiment cv_screening --model gpt-4
+# CV Screening
+python3 experiments/recruitment_cv_screening/cv_screener.py
+
+# Or use the experiment runner
+python scripts/run_experiment.py --experiment cv_screening --model gemini-2.5-flash-lite
 ```
 
 5. **View results:**
@@ -510,6 +519,15 @@ python scripts/evaluate.py
 - `scripts/` - Core utilities and runners
 - `results/` - Experiment outputs and leaderboards
 - `docs/` - Documentation and implementation plans
+
+### Rate Limiting
+
+All experiments automatically respect Google Gemini's free tier rate limits:
+- **15 RPM** (requests per minute) for Gemini 2.5 Flash-Lite
+- **250,000 TPM** (tokens per minute)
+- **1,000 RPD** (requests per day)
+
+Rate limiting is handled transparently by the `LLMClient` class.
 
 See [scripts/README.md](scripts/README.md) for detailed usage instructions.
 
