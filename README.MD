@@ -456,4 +456,61 @@ This repository demonstrates:
 * Culture transformation vision
 * Benchmarking discipline
 
+---
+
+# 🚀 Quick Start
+
+### Automated Setup (Recommended)
+
+**macOS/Linux:**
+```bash
+chmod +x setup.sh
+./setup.sh
+```
+
+**Windows:**
+```cmd
+setup.bat
+```
+
+### Manual Setup
+
+1. **Create virtual environment:**
+```bash
+python3 -m venv .venv
+source .venv/bin/activate  # macOS/Linux
+# OR: .venv\Scripts\activate  # Windows
+```
+
+2. **Install dependencies:**
+```bash
+pip install -r requirements.txt
+```
+
+3. **Configure API keys:**
+```bash
+cp .env.example .env
+# Edit .env and add your API keys (OpenAI, Anthropic, etc.)
+```
+
+4. **Run your first experiment:**
+```bash
+python scripts/run_experiment.py --experiment cv_screening --model gpt-4
+```
+
+5. **View results:**
+```bash
+python scripts/evaluate.py
+```
+
+### Project Structure
+
+- `experiments/` - Individual experiment modules (9 total)
+- `datasets/` - Synthetic datasets for testing
+- `scripts/` - Core utilities and runners
+- `results/` - Experiment outputs and leaderboards
+- `docs/` - Documentation and implementation plans
+
+See [scripts/README.md](scripts/README.md) for detailed usage instructions.
+
 

@@ -1,0 +1,71 @@
+{
+  "default_experiment_config": {
+    "llm_provider": "openai",
+    "llm_model": "gpt-4",
+    "temperature": 0.7,
+    "max_tokens": 1000
+  },
+  "experiments": {
+    "cv_screening": {
+      "dataset": "synthetic_cvs",
+      "llm_model": "gpt-4",
+      "temperature": 0.3,
+      "required_fields": [
+        "skills",
+        "experience_years",
+        "certifications",
+        "projects",
+        "education"
+      ],
+      "skills_ontology_path": "datasets/job_families/skills_ontology.json"
+    },
+    "interview_summarisation": {
+      "dataset": "interview_transcripts",
+      "llm_model": "gpt-4",
+      "temperature": 0.5,
+      "competency_rubric_path": "datasets/job_families/competency_rubric.json"
+    },
+    "performance_review": {
+      "dataset": "performance_notes",
+      "llm_model": "gpt-4",
+      "temperature": 0.5
+    },
+    "career_pathway": {
+      "dataset": "job_families",
+      "llm_model": "gpt-4",
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "vector_store": "faiss",
+      "similarity_threshold": 0.7
+    },
+    "bias_testing": {
+      "modifications": [
+        "name_swap",
+        "gender_swap",
+        "ethnicity_swap"
+      ],
+      "bias_threshold": 0.05
+    }
+  },
+  "evaluation": {
+    "metrics": {
+      "cv_screening": [
+        "extraction_accuracy",
+        "parse_success_rate",
+        "avg_tokens_per_cv",
+        "bias_score"
+      ],
+      "interview_summarisation": [
+        "consistency_score",
+        "evidence_correctness",
+        "bias_score"
+      ]
+    }
+  },
+  "responsible_ai": {
+    "enable_bias_testing": true,
+    "enable_guardrails": true,
+    "human_review_threshold": 0.8,
+    "log_all_outputs": true,
+    "anonymize_data": true
+  }
+}
