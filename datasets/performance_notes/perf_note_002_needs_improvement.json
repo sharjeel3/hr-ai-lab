@@ -1,0 +1,74 @@
+{
+    "performance_note_id": "PN002",
+    "employee_id": "EMP2156",
+    "employee_name": "Brian Thompson",
+    "position": "Product Designer",
+    "manager": "Sarah Kim",
+    "review_period": "2024 Q3-Q4",
+    "date_created": "2024-11-26",
+    "notes": [
+        {
+            "date": "2024-09-10",
+            "category": "Quality Concern",
+            "observation": "Brian's design deliverables for the checkout flow redesign required multiple rounds of revisions. The initial mockups didn't account for mobile responsive design, and accessibility considerations were missing. After feedback, he made the necessary changes, but this delayed the engineering team's start date by a week."
+        },
+        {
+            "date": "2024-09-28",
+            "category": "Collaboration Issue",
+            "observation": "Received feedback from engineering team that Brian's design handoffs lack detail. Developers mentioned missing specifications for spacing, states, and interactions. Had a 1:1 discussion with Brian about the importance of thorough documentation and using our design system consistently."
+        },
+        {
+            "date": "2024-10-15",
+            "category": "Positive Contribution",
+            "observation": "Brian conducted user interviews for the onboarding redesign and synthesized findings into a clear insights document. His research uncovered important pain points that we weren't aware of. The team found his research work valuable."
+        },
+        {
+            "date": "2024-10-30",
+            "category": "Communication",
+            "observation": "Brian missed the deadline for providing design assets for the marketing campaign. He didn't communicate that he was behind until the day before the deadline. This put pressure on the marketing team. We discussed the importance of proactive communication about blockers and timeline risks."
+        },
+        {
+            "date": "2024-11-08",
+            "category": "Attendance/Timeliness",
+            "observation": "Brian has been late to several morning meetings (standup and design reviews) this quarter. When asked about it, he mentioned personal issues but didn't provide specifics. Reminded him of the importance of punctuality and suggested discussing any need for schedule accommodations."
+        },
+        {
+            "date": "2024-11-20",
+            "category": "Improvement",
+            "observation": "After our conversation about design handoffs, Brian's recent work on the dashboard redesign showed improvement. The Figma file was more organized, he included detailed specs, and the engineering team had fewer questions. Good to see he's taking the feedback seriously and making changes."
+        }
+    ],
+    "strengths": [
+        "Strong user research skills",
+        "Good at synthesizing user feedback into insights",
+        "Receptive to feedback and willing to improve"
+    ],
+    "areas_for_development": [
+        "Attention to detail in design deliverables",
+        "Thoroughness in design documentation and specifications",
+        "Communication about project status and delays",
+        "Time management and meeting punctuality",
+        "Consistency in applying design system standards"
+    ],
+    "goals_progress": {
+        "goal_1": {
+            "goal": "Redesign checkout flow to improve conversion",
+            "status": "Partially complete",
+            "notes": "Design delivered but with delays due to revision cycles. Final design is solid but took longer than expected."
+        },
+        "goal_2": {
+            "goal": "Improve collaboration with engineering team",
+            "status": "In progress with recent improvements",
+            "notes": "Started rough but showing improvement in recent weeks"
+        },
+        "goal_3": {
+            "goal": "Lead research for two major features",
+            "status": "On track",
+            "notes": "Completed strong research for onboarding redesign"
+        }
+    },
+    "overall_performance": "Meets Expectations with Development Areas",
+    "concerns": "Brian has solid design and research skills but needs to improve attention to detail, communication, and time management. Recent improvements are encouraging, but consistency is needed. Would benefit from more structured check-ins and potentially design mentorship.",
+    "recommended_rating": "3/5",
+    "pip_status": "Not recommended at this time, but continued monitoring needed. If issues persist next quarter, may need to implement formal improvement plan."
+}

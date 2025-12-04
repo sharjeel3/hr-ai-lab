@@ -1,0 +1,72 @@
+{
+    "performance_note_id": "PN001",
+    "employee_id": "EMP1045",
+    "employee_name": "Jennifer Martinez",
+    "position": "Software Engineer II",
+    "manager": "David Chen",
+    "review_period": "2024 Q3-Q4",
+    "date_created": "2024-11-25",
+    "notes": [
+        {
+            "date": "2024-09-15",
+            "category": "Technical Achievement",
+            "observation": "Jennifer led the refactoring of our authentication service, migrating from JWT to OAuth 2.0. The implementation was clean, well-documented, and included comprehensive test coverage. She proactively identified potential security vulnerabilities during code review and proposed solutions. The migration was completed ahead of schedule with zero production incidents."
+        },
+        {
+            "date": "2024-10-03",
+            "category": "Collaboration",
+            "observation": "Jennifer has been instrumental in onboarding our two new junior developers. She created a detailed onboarding guide, conducted pair programming sessions twice a week, and is always available to answer questions. The juniors have specifically mentioned how helpful and patient she is. This mentoring work goes above and beyond her core responsibilities."
+        },
+        {
+            "date": "2024-10-22",
+            "category": "Problem Solving",
+            "observation": "When we experienced intermittent failures in the payment processing service, Jennifer took ownership of the investigation. She systematically analyzed logs, identified a race condition in our async processing, and implemented a fix using distributed locks. Her debugging approach was methodical and her solution was elegant. She also wrote a post-mortem document that the team found valuable."
+        },
+        {
+            "date": "2024-11-05",
+            "category": "Communication",
+            "observation": "Jennifer gave an excellent tech talk on microservices patterns at our engineering all-hands. She explained complex concepts clearly, used good examples, and handled Q&A confidently. Several senior engineers mentioned they learned something new from her presentation. This demonstrates strong communication skills and technical depth."
+        },
+        {
+            "date": "2024-11-18",
+            "category": "Initiative",
+            "observation": "Jennifer identified that our CI/CD pipeline was taking too long (30+ minutes per build) and volunteered to optimize it. Without being asked, she researched solutions, proposed a plan to parallelize tests, and implemented the changes. She reduced build time to under 10 minutes, which significantly improved team productivity. This shows excellent initiative and systems thinking."
+        },
+        {
+            "date": "2024-11-20",
+            "category": "Area for Growth",
+            "observation": "During sprint planning, Jennifer sometimes underestimates task complexity, leading to missed commitments. For example, the API versioning work was estimated at 3 days but took 7. We discussed the importance of building in buffer time and breaking down tasks more granularly. She was receptive to feedback and committed to improving her estimation skills."
+        }
+    ],
+    "strengths": [
+        "Strong technical skills with expertise in backend systems and security",
+        "Excellent mentor who invests time in developing junior team members",
+        "Proactive problem solver who takes ownership of issues",
+        "Clear communicator both written and verbal",
+        "Shows initiative beyond assigned responsibilities"
+    ],
+    "areas_for_development": [
+        "Task estimation and project planning skills",
+        "Could be more assertive in technical discussions and decision-making"
+    ],
+    "goals_progress": {
+        "goal_1": {
+            "goal": "Migrate authentication system to OAuth 2.0",
+            "status": "Completed ahead of schedule",
+            "notes": "Excellent execution with strong focus on security and testing"
+        },
+        "goal_2": {
+            "goal": "Mentor at least one junior engineer",
+            "status": "Exceeded - mentoring two junior engineers",
+            "notes": "Going above and beyond in developing others"
+        },
+        "goal_3": {
+            "goal": "Improve system reliability and reduce incidents",
+            "status": "On track",
+            "notes": "Resolved critical payment processing issue, contributed to improved uptime"
+        }
+    },
+    "overall_performance": "Exceeds Expectations",
+    "promotion_readiness": "Ready for promotion to Senior Software Engineer. Demonstrates technical excellence, leadership through mentoring, and strong ownership. Should work on estimation skills but this is a minor gap.",
+    "recommended_rating": "4.5/5"
+}

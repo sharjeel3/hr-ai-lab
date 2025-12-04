@@ -1,0 +1,120 @@
+{
+    "candidate_id": "CV008",
+    "name": "Mohamed Al-Rashid",
+    "email": "m.alrashid@email.com",
+    "phone": "+1-555-0108",
+    "location": "Dubai, UAE",
+    "summary": "Solutions Architect with 12 years of experience designing enterprise-scale systems and cloud architectures. Strong expertise in solution design, technical pre-sales, and leading architectural initiatives for Fortune 500 clients.",
+    "experience": [
+        {
+            "title": "Principal Solutions Architect",
+            "company": "Cloud Consulting Firm",
+            "location": "Dubai, UAE",
+            "start_date": "2021-01",
+            "end_date": "present",
+            "responsibilities": [
+                "Lead architecture design for multi-cloud enterprise transformations ($10M+ projects)",
+                "Define technical strategy and roadmap for clients migrating to cloud",
+                "Conduct architecture reviews and provide recommendations on scalability and security",
+                "Mentor team of 8 solutions architects and conduct technical training",
+                "Pre-sales technical engagement with C-level executives at Fortune 500 companies",
+                "Design reference architectures for healthcare, finance, and retail industries"
+            ]
+        },
+        {
+            "title": "Senior Solutions Architect",
+            "company": "Technology Services Provider",
+            "location": "Dubai, UAE",
+            "start_date": "2018-04",
+            "end_date": "2020-12",
+            "responsibilities": [
+                "Designed cloud-native architectures on AWS and Azure for 20+ enterprise clients",
+                "Led technical discovery workshops and created solution proposals",
+                "Established architecture patterns and best practices for microservices",
+                "Collaborated with engineering teams to ensure successful implementation"
+            ]
+        },
+        {
+            "title": "Senior Software Engineer / Tech Lead",
+            "company": "Telecommunications Company",
+            "location": "Riyadh, Saudi Arabia",
+            "start_date": "2013-06",
+            "end_date": "2018-03",
+            "responsibilities": [
+                "Led development of billing system serving 5M+ subscribers",
+                "Architected integration layer connecting 15+ backend systems",
+                "Managed team of 6 developers and established agile practices",
+                "Reduced system downtime by 60% through architecture improvements"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Master of Science in Software Engineering",
+            "institution": "King Fahd University of Petroleum & Minerals",
+            "graduation_year": "2013",
+            "gpa": "3.8/4.0"
+        },
+        {
+            "degree": "Bachelor of Engineering in Computer Engineering",
+            "institution": "King Saud University",
+            "graduation_year": "2011",
+            "gpa": "3.7/4.0"
+        }
+    ],
+    "skills": {
+        "architecture": [
+            "Enterprise Architecture",
+            "Solution Design",
+            "Microservices",
+            "Event-Driven Architecture",
+            "API Design"
+        ],
+        "cloud_platforms": [
+            "AWS",
+            "Azure",
+            "GCP",
+            "Oracle Cloud"
+        ],
+        "technologies": [
+            "Kubernetes",
+            "Kafka",
+            "Redis",
+            "MongoDB",
+            "PostgreSQL"
+        ],
+        "frameworks": [
+            "Spring Boot",
+            "Node.js",
+            ".NET Core"
+        ],
+        "methodologies": [
+            "Domain-Driven Design",
+            "TOGAF",
+            "12-Factor App"
+        ],
+        "soft_skills": [
+            "Technical Leadership",
+            "Client Engagement",
+            "Presentation Skills",
+            "Strategic Thinking"
+        ]
+    },
+    "certifications": [
+        "AWS Certified Solutions Architect - Professional",
+        "Microsoft Azure Solutions Architect Expert",
+        "Google Cloud Professional Cloud Architect",
+        "TOGAF 9 Certified",
+        "Certified Kubernetes Application Developer (CKAD)"
+    ],
+    "languages": [
+        {
+            "language": "Arabic",
+            "proficiency": "Native"
+        },
+        {
+            "language": "English",
+            "proficiency": "Fluent"
+        }
+    ]
+}

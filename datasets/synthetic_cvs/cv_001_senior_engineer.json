@@ -1,0 +1,99 @@
+{
+    "candidate_id": "CV001",
+    "name": "Sarah Chen",
+    "email": "sarah.chen@email.com",
+    "phone": "+1-555-0101",
+    "location": "San Francisco, CA",
+    "summary": "Senior Software Engineer with 8+ years of experience building scalable web applications and leading technical teams. Passionate about clean code, system design, and mentoring junior developers.",
+    "experience": [
+        {
+            "title": "Senior Software Engineer",
+            "company": "TechCorp Inc.",
+            "location": "San Francisco, CA",
+            "start_date": "2020-03",
+            "end_date": "present",
+            "responsibilities": [
+                "Led a team of 5 engineers to rebuild the customer portal, improving performance by 40%",
+                "Architected and implemented microservices migration strategy for legacy monolith",
+                "Mentored 3 junior engineers and conducted technical interviews for new hires",
+                "Established code review practices and CI/CD pipelines using GitHub Actions"
+            ]
+        },
+        {
+            "title": "Software Engineer",
+            "company": "DataSolutions LLC",
+            "location": "San Jose, CA",
+            "start_date": "2017-06",
+            "end_date": "2020-02",
+            "responsibilities": [
+                "Developed RESTful APIs using Python/Django serving 50k+ daily active users",
+                "Implemented data processing pipelines using Apache Airflow and Kafka",
+                "Reduced API response times by 60% through database optimization",
+                "Collaborated with product managers to define technical requirements"
+            ]
+        },
+        {
+            "title": "Junior Software Developer",
+            "company": "StartupX",
+            "location": "Palo Alto, CA",
+            "start_date": "2016-01",
+            "end_date": "2017-05",
+            "responsibilities": [
+                "Built frontend components using React and Redux",
+                "Contributed to backend services in Node.js and Express",
+                "Participated in agile ceremonies and sprint planning"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Science in Computer Science",
+            "institution": "University of California, Berkeley",
+            "graduation_year": "2015",
+            "gpa": "3.7/4.0"
+        }
+    ],
+    "skills": {
+        "programming_languages": [
+            "Python",
+            "JavaScript",
+            "TypeScript",
+            "Go",
+            "SQL"
+        ],
+        "frameworks": [
+            "Django",
+            "Flask",
+            "React",
+            "Node.js",
+            "Express"
+        ],
+        "tools": [
+            "Docker",
+            "Kubernetes",
+            "AWS",
+            "PostgreSQL",
+            "Redis",
+            "Git"
+        ],
+        "soft_skills": [
+            "Team Leadership",
+            "Mentoring",
+            "Technical Communication",
+            "Problem Solving"
+        ]
+    },
+    "certifications": [
+        "AWS Certified Solutions Architect - Associate (2021)"
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "Native"
+        },
+        {
+            "language": "Mandarin",
+            "proficiency": "Fluent"
+        }
+    ]
+}

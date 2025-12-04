@@ -1,0 +1,102 @@
+{
+    "candidate_id": "CV003",
+    "name": "Michael Okonkwo",
+    "email": "m.okonkwo@email.com",
+    "phone": "+1-555-0103",
+    "location": "New York, NY",
+    "summary": "Product Manager with 6 years of experience driving product strategy and execution for B2B SaaS platforms. Strong background in user research, data-driven decision making, and cross-functional team leadership.",
+    "experience": [
+        {
+            "title": "Senior Product Manager",
+            "company": "CloudPlatform Inc.",
+            "location": "New York, NY",
+            "start_date": "2022-01",
+            "end_date": "present",
+            "responsibilities": [
+                "Own product roadmap for analytics platform serving 200+ enterprise customers",
+                "Led discovery and launch of AI-powered insights feature, increasing user engagement by 35%",
+                "Manage backlog and prioritize features based on customer feedback and business value",
+                "Collaborate with engineering, design, and sales teams to deliver quarterly releases",
+                "Conduct user interviews and usability testing to validate product hypotheses"
+            ]
+        },
+        {
+            "title": "Product Manager",
+            "company": "FinTech Innovations",
+            "location": "New York, NY",
+            "start_date": "2020-03",
+            "end_date": "2021-12",
+            "responsibilities": [
+                "Managed payments processing product line generating $5M annual revenue",
+                "Defined product requirements and user stories for development team",
+                "Analyzed product metrics and user behavior using Mixpanel and SQL",
+                "Coordinated go-to-market strategy with marketing and sales teams"
+            ]
+        },
+        {
+            "title": "Associate Product Manager",
+            "company": "Digital Commerce Co.",
+            "location": "Boston, MA",
+            "start_date": "2019-06",
+            "end_date": "2020-02",
+            "responsibilities": [
+                "Supported senior PM in managing e-commerce platform features",
+                "Conducted competitive analysis and market research",
+                "Created wireframes and product specifications",
+                "Tracked KPIs and prepared executive presentations"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Master of Business Administration (MBA)",
+            "institution": "Columbia Business School",
+            "graduation_year": "2019",
+            "specialization": "Technology & Innovation"
+        },
+        {
+            "degree": "Bachelor of Science in Industrial Engineering",
+            "institution": "Georgia Institute of Technology",
+            "graduation_year": "2017",
+            "gpa": "3.6/4.0"
+        }
+    ],
+    "skills": {
+        "product_management": [
+            "Product Strategy",
+            "Roadmap Planning",
+            "User Research",
+            "A/B Testing",
+            "Agile/Scrum"
+        ],
+        "analytics": [
+            "SQL",
+            "Google Analytics",
+            "Mixpanel",
+            "Tableau",
+            "Excel"
+        ],
+        "tools": [
+            "JIRA",
+            "Figma",
+            "Confluence",
+            "ProductBoard"
+        ],
+        "soft_skills": [
+            "Stakeholder Management",
+            "Strategic Thinking",
+            "Communication",
+            "Leadership"
+        ]
+    },
+    "certifications": [
+        "Certified Scrum Product Owner (CSPO)",
+        "Google Analytics Individual Qualification"
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "Native"
+        }
+    ]
+}

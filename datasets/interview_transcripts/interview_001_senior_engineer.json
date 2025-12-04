@@ -1,0 +1,123 @@
+{
+    "interview_id": "INT001",
+    "candidate_name": "Sarah Chen",
+    "candidate_id": "CV001",
+    "position": "Senior Software Engineer",
+    "interviewer": "Marcus Johnson (Engineering Manager)",
+    "date": "2024-11-15",
+    "duration_minutes": 45,
+    "interview_type": "Technical + Behavioral",
+    "transcript": [
+        {
+            "speaker": "Interviewer",
+            "timestamp": "00:00",
+            "text": "Hi Sarah, thanks for joining us today. I'm Marcus, the engineering manager for the platform team. How are you doing?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "00:08",
+            "text": "Hi Marcus, I'm doing great, thank you! Really excited to be here and learn more about the role and the team."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "00:15",
+            "text": "Excellent. So I've reviewed your background, and I'm impressed with your experience at TechCorp. Let's start with a technical question. Can you walk me through a time when you had to optimize a poorly performing system? What was your approach?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "00:30",
+            "text": "Sure! At TechCorp, we had a customer portal that was experiencing significant slowdowns during peak hours. Users were reporting 5-7 second page load times, which was unacceptable. My first step was to instrument the application with detailed logging and APM tools to identify bottlenecks. We discovered that the main issue was N+1 database queries in our ORM layer. I worked with the team to implement query optimization, added strategic caching with Redis, and introduced database indexing. We also refactored some of the API endpoints to use pagination and lazy loading. The result was a 40% improvement in response times, bringing average load times down to under 2 seconds."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "01:20",
+            "text": "That's a great systematic approach. How did you prioritize which optimizations to tackle first?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "01:28",
+            "text": "We used data to guide our decisions. After the initial analysis, I created a matrix ranking each issue by impact and effort. The N+1 query problem had the highest impact and medium effort, so it became our first priority. We also ran A/B tests in staging to validate that our changes actually improved performance before rolling to production."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "01:50",
+            "text": "Perfect. Now let's shift gears a bit. You mentioned on your resume that you've mentored junior engineers. Can you tell me about a challenging mentoring experience and how you handled it?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "02:05",
+            "text": "Yes, I mentored a junior engineer named Alex who was struggling with code quality and design patterns. Initially, their pull requests would require extensive rewrites. Rather than just pointing out issues, I started doing paired programming sessions twice a week. We'd work through problems together, and I'd explain my thought process as we coded. I also created a shared document with code review guidelines and common patterns we use. Over three months, I saw significant improvement. Alex became one of our most reliable contributors and now rarely needs major revisions on their PRs. The key was patience and providing structured learning rather than just criticism."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "02:50",
+            "text": "That shows great leadership. How do you approach code reviews in general?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "02:58",
+            "text": "I believe code reviews are as much about knowledge sharing as they are about catching bugs. I try to be constructive and explain the 'why' behind my suggestions. I also make it a point to highlight good practices I see in the code, not just problems. For critical issues like security vulnerabilities or major architectural concerns, I'll flag them immediately and discuss synchronously. For style or minor improvements, I'll leave comments but approve if the core functionality is sound. I think it's important to balance quality with not blocking progress."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "03:35",
+            "text": "I really like that balanced approach. Let me ask you about system design. If you had to design a URL shortener service like bit.ly that needs to handle millions of requests per day, how would you approach it?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "03:50",
+            "text": "Great question. Let me think through the requirements first. We need to generate short URLs, store the mapping, handle redirects, and potentially track analytics. For generating short URLs, I'd use a base62 encoding of a unique ID, giving us plenty of short URL combinations. For storage, I'd use a distributed database like DynamoDB or Cassandra for fast lookups and scalability. For the application layer, I'd deploy multiple stateless API servers behind a load balancer. To handle high read traffic, I'd add a caching layer with Redis or Memcached for frequently accessed URLs. For writes, we could use a distributed ID generation service like Twitter's Snowflake to avoid collisions. We'd also need to think about rate limiting to prevent abuse."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "04:45",
+            "text": "Solid design. How would you handle analytics if clients wanted to track click counts and geographic data?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "04:55",
+            "text": "I'd decouple that from the redirect path to keep redirects fast. When a redirect happens, we'd asynchronously publish an event to a message queue like Kafka. Then we'd have separate consumer services that process these events and write to an analytics database, possibly a time-series DB like InfluxDB or a data warehouse like Redshift. This way, the redirect remains fast, and we can scale analytics processing independently."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "05:20",
+            "text": "Excellent. Last question - where do you see yourself in terms of career growth, and why are you interested in this role?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "05:30",
+            "text": "I'm at a point where I want to deepen my technical expertise while also taking on more technical leadership responsibilities. I'm interested in this role because you're working on distributed systems at scale, which aligns with where I want to grow. I also appreciate your emphasis on engineering culture and mentorship. From what I've learned about your team, it seems like there's a strong focus on code quality and knowledge sharing, which are values I care deeply about. I'm looking for an environment where I can continue learning from strong engineers while also contributing my experience in system design and team leadership."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "06:15",
+            "text": "That's great to hear. Well, Sarah, you've demonstrated strong technical skills and thoughtful approach to both engineering and teamwork. Do you have any questions for me about the role or the team?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "06:28",
+            "text": "Yes, I'd love to know more about the team structure and how engineering collaborates with product management here."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "06:35",
+            "text": "We work in cross-functional squads. Each squad has engineers, a product manager, and a designer. We do sprint planning together and engineers have significant input in the technical approach and roadmap priorities. We've found this collaborative model works well..."
+        }
+    ],
+    "notes": {
+        "technical_skills": "Strong. Demonstrated systematic approach to performance optimization, good understanding of distributed systems, caching strategies, and system design. Clear explanation of URL shortener design with appropriate technology choices.",
+        "problem_solving": "Excellent. Data-driven approach, uses metrics to prioritize, validates solutions with A/B testing.",
+        "communication": "Very clear and articulate. Explains technical concepts well with specific examples.",
+        "leadership": "Demonstrated mentoring ability with concrete example. Patient and structured approach to helping junior engineers.",
+        "culture_fit": "Values code quality, collaboration, and continuous learning. Aligns well with team values.",
+        "areas_to_explore": "Would like to understand more about experience with microservices architecture in next round."
+    },
+    "rating": {
+        "technical": 4.5,
+        "problem_solving": 5,
+        "communication": 5,
+        "culture_fit": 4.5,
+        "overall": 4.5
+    },
+    "recommendation": "Strong hire. Recommend moving to final round with CTO."
+}

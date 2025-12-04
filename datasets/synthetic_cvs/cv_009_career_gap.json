@@ -1,0 +1,102 @@
+{
+    "candidate_id": "CV009",
+    "name": "Emily Wong",
+    "email": "emily.wong@email.com",
+    "phone": "+1-555-0109",
+    "location": "Toronto, ON, Canada",
+    "summary": "Gap in employment due to family caregiving. Previously experienced project manager with 5 years in tech industry. Completed online courses during career break to update skills and stay current with industry trends. Seeking to return to workforce with flexible arrangement.",
+    "experience": [
+        {
+            "title": "Technical Project Manager",
+            "company": "Software Development Agency",
+            "location": "Toronto, ON",
+            "start_date": "2016-09",
+            "end_date": "2019-12",
+            "responsibilities": [
+                "Managed 5-10 concurrent client projects with budgets up to $500K",
+                "Led cross-functional teams of designers, developers, and QA engineers",
+                "Delivered 30+ projects on time and within budget, maintaining 95% client satisfaction",
+                "Implemented agile methodologies and project management tools (JIRA, Asana)",
+                "Managed stakeholder communications and conducted regular status meetings"
+            ]
+        },
+        {
+            "title": "Project Coordinator",
+            "company": "Digital Marketing Firm",
+            "location": "Toronto, ON",
+            "start_date": "2015-03",
+            "end_date": "2016-08",
+            "responsibilities": [
+                "Coordinated project schedules and tracked deliverables",
+                "Supported senior project managers on client accounts",
+                "Maintained project documentation and status reports",
+                "Facilitated team meetings and captured action items"
+            ]
+        }
+    ],
+    "career_break": {
+        "start_date": "2020-01",
+        "end_date": "2024-08",
+        "reason": "Family caregiving responsibilities",
+        "activities_during_break": [
+            "Completed Project Management Professional (PMP) certification (2023)",
+            "Finished online courses: Agile Project Management, Scrum Master certification",
+            "Volunteered as project coordinator for local non-profit (2022-2023)",
+            "Maintained industry knowledge through webinars and professional reading",
+            "Part-time freelance consulting for 2 small business clients (2023-2024)"
+        ]
+    },
+    "education": [
+        {
+            "degree": "Bachelor of Commerce",
+            "institution": "University of Toronto",
+            "graduation_year": "2015",
+            "major": "Business Management"
+        }
+    ],
+    "skills": {
+        "project_management": [
+            "Agile/Scrum",
+            "Waterfall",
+            "Risk Management",
+            "Budget Management",
+            "Resource Planning"
+        ],
+        "tools": [
+            "JIRA",
+            "Asana",
+            "Trello",
+            "Microsoft Project",
+            "Slack",
+            "Confluence"
+        ],
+        "methodologies": [
+            "PMI Framework",
+            "Agile",
+            "Scrum",
+            "Kanban"
+        ],
+        "soft_skills": [
+            "Communication",
+            "Leadership",
+            "Problem Solving",
+            "Time Management",
+            "Adaptability"
+        ]
+    },
+    "certifications": [
+        "Project Management Professional (PMP) - 2023",
+        "Certified ScrumMaster (CSM) - 2022"
+    ],
+    "availability": "Seeking full-time or part-time role with flexible work arrangement",
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "Native"
+        },
+        {
+            "language": "Cantonese",
+            "proficiency": "Native"
+        }
+    ]
+}

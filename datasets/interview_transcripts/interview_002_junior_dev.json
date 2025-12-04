@@ -1,0 +1,142 @@
+{
+    "interview_id": "INT002",
+    "candidate_name": "Alex Rodriguez",
+    "candidate_id": "CV002",
+    "position": "Junior Software Developer",
+    "interviewer": "Lisa Park (Senior Developer)",
+    "date": "2024-11-18",
+    "duration_minutes": 35,
+    "interview_type": "Technical Screen",
+    "transcript": [
+        {
+            "speaker": "Interviewer",
+            "timestamp": "00:00",
+            "text": "Hi Alex! Thanks for taking the time to chat with me today. I'm Lisa, a senior developer on the web platform team. How's your day going?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "00:07",
+            "text": "Hi Lisa! I'm doing well, thank you. I'm excited about this opportunity and looking forward to our conversation."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "00:14",
+            "text": "Great! So I see you just graduated from UT Austin. Congratulations! Let's dive into some technical questions. Can you explain what happens when you type a URL into a browser and hit enter?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "00:28",
+            "text": "Sure! Um, so first the browser needs to figure out the IP address of the server. It does a DNS lookup to translate the domain name to an IP address. Then the browser makes an HTTP request to that server. The server processes the request and sends back an HTTP response with the HTML. The browser then parses the HTML and makes additional requests for CSS, JavaScript, and images. Finally, it renders the page on the screen."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "01:05",
+            "text": "Good! You covered the main steps. What about HTTPS? What's different there?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "01:12",
+            "text": "Oh right! With HTTPS, there's an SSL or TLS handshake that happens before the HTTP request. The browser and server establish an encrypted connection by exchanging certificates and keys. This ensures the communication is secure."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "01:28",
+            "text": "Perfect. Let's do a quick coding question. Can you write a function in JavaScript that reverses a string?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "01:35",
+            "text": "Sure! Let me think... I could do it a few ways. The simplest would be to use built-in methods. I'd convert the string to an array using split, then use reverse, and join it back together. So something like: function reverseString(str) { return str.split('').reverse().join(''); }"
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "01:58",
+            "text": "That works! What if you couldn't use the reverse method? How would you do it manually?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "02:06",
+            "text": "Hmm, I'd probably loop through the string from the end to the beginning and build a new string. Or I could use a for loop going backwards and push characters into an array, then join them."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "02:20",
+            "text": "Good thinking. Let's talk about your projects. I saw you built a task management app. Can you walk me through the architecture?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "02:30",
+            "text": "Yes! So it's a full-stack application. The frontend is built with React and uses React hooks for state management. I have components for the task list, individual tasks, and a form to add new tasks. The backend is Node.js with Express, and it provides a REST API for CRUD operations on tasks. For the database, I used MongoDB because I wanted to learn about NoSQL databases, and it was flexible for the task schema. User authentication is handled with JWT tokens."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "03:10",
+            "text": "Nice! Did you run into any challenges building this?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "03:15",
+            "text": "Definitely. The biggest challenge was handling user authentication securely. I had to learn about password hashing with bcrypt and how to properly store and validate JWT tokens. I also struggled initially with making the frontend and backend communicate properly - dealing with CORS was confusing at first. But after reading documentation and watching some tutorials, I got it working."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "03:45",
+            "text": "That's great that you worked through those issues. Learning to debug and find solutions is really important. What's your experience with version control and Git?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "03:55",
+            "text": "I use Git for all my projects. I'm comfortable with basic commands like commit, push, pull, and branch. In my internship, we used feature branches and pull requests. I'm familiar with merge conflicts and how to resolve them, though I've only dealt with simpler ones. I use GitHub for hosting my repositories."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "04:15",
+            "text": "Good. Have you worked with any testing frameworks?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "04:20",
+            "text": "I've used Jest for testing JavaScript code. In my internship, I wrote unit tests for some utility functions and React components. I know the basics of writing test cases and checking for expected outputs. I haven't done much integration or end-to-end testing yet, but I'm definitely interested in learning more about testing best practices."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "04:45",
+            "text": "That's a good foundation. Last question - what interests you about this position, and what are you hoping to learn?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "04:52",
+            "text": "I'm really interested in working on a production application at scale and learning from experienced developers. Your job posting mentioned working with modern technologies and having a strong mentorship culture, which is exactly what I'm looking for as someone early in my career. I want to improve my coding skills, learn about software architecture, and understand how professional engineering teams work together. I'm eager to contribute and grow as a developer."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "05:25",
+            "text": "That's wonderful, Alex. You've shown a solid foundation and the right attitude for learning. Do you have any questions for me?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "05:32",
+            "text": "Yes! What does a typical day look like for a junior developer on your team? And what kind of support or mentorship would I receive?"
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "05:42",
+            "text": "Great questions. Junior developers typically start with smaller, well-defined tickets and pair program with senior developers regularly. We have a buddy system where you'd be paired with a mentor for your first few months. You'd also participate in all team ceremonies like standups, planning, and retros..."
+        }
+    ],
+    "notes": {
+        "technical_skills": "Good foundational knowledge for a new grad. Understands web fundamentals, has hands-on project experience. Some gaps in advanced topics but expected at this level.",
+        "problem_solving": "Able to think through problems, knows multiple approaches to solutions.",
+        "communication": "Clear communicator, not afraid to admit what they don't know.",
+        "learning_attitude": "Strong growth mindset, actively seeks learning opportunities.",
+        "areas_for_development": "Needs exposure to production systems, testing practices, and more complex architectural patterns. Would benefit from mentorship."
+    },
+    "rating": {
+        "technical": 3.5,
+        "problem_solving": 3.5,
+        "communication": 4,
+        "potential": 4,
+        "overall": 3.5
+    },
+    "recommendation": "Good fit for junior role. Has the right attitude and foundation to grow with proper mentorship. Recommend proceeding to team fit interview."
+}

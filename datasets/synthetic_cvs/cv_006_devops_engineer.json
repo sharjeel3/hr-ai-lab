@@ -1,0 +1,112 @@
+{
+    "candidate_id": "CV006",
+    "name": "David Kim",
+    "email": "dkim@email.com",
+    "phone": "+1-555-0106",
+    "location": "Los Angeles, CA",
+    "summary": "DevOps Engineer with 7 years of experience building and maintaining cloud infrastructure, CI/CD pipelines, and monitoring systems. Specialized in AWS, Kubernetes, and infrastructure as code.",
+    "experience": [
+        {
+            "title": "Lead DevOps Engineer",
+            "company": "Media Streaming Platform",
+            "location": "Los Angeles, CA",
+            "start_date": "2021-05",
+            "end_date": "present",
+            "responsibilities": [
+                "Architected multi-region AWS infrastructure supporting 5M concurrent users",
+                "Reduced deployment time from 2 hours to 15 minutes using GitLab CI/CD",
+                "Implemented infrastructure as code using Terraform and Ansible",
+                "Set up comprehensive monitoring with Prometheus, Grafana, and ELK stack",
+                "Managed on-call rotation and incident response, achieving 99.95% uptime"
+            ]
+        },
+        {
+            "title": "DevOps Engineer",
+            "company": "SaaS Startup",
+            "location": "Santa Monica, CA",
+            "start_date": "2019-02",
+            "end_date": "2021-04",
+            "responsibilities": [
+                "Migrated legacy infrastructure to Kubernetes on AWS EKS",
+                "Built and maintained CI/CD pipelines for 10+ microservices",
+                "Automated infrastructure provisioning reducing setup time by 80%",
+                "Implemented security best practices including secrets management with Vault"
+            ]
+        },
+        {
+            "title": "Systems Administrator",
+            "company": "Enterprise Solutions Inc.",
+            "location": "San Diego, CA",
+            "start_date": "2017-08",
+            "end_date": "2019-01",
+            "responsibilities": [
+                "Managed Linux servers and database administration",
+                "Automated routine tasks using Python and Bash scripts",
+                "Provided production support and troubleshooting"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Science in Information Technology",
+            "institution": "California State University, Long Beach",
+            "graduation_year": "2017",
+            "gpa": "3.5/4.0"
+        }
+    ],
+    "skills": {
+        "cloud_platforms": [
+            "AWS (EC2, EKS, S3, RDS, Lambda)",
+            "GCP",
+            "Azure"
+        ],
+        "container_orchestration": [
+            "Kubernetes",
+            "Docker",
+            "Helm"
+        ],
+        "iac_tools": [
+            "Terraform",
+            "Ansible",
+            "CloudFormation"
+        ],
+        "ci_cd": [
+            "GitLab CI",
+            "Jenkins",
+            "GitHub Actions",
+            "ArgoCD"
+        ],
+        "monitoring": [
+            "Prometheus",
+            "Grafana",
+            "ELK Stack",
+            "Datadog"
+        ],
+        "scripting": [
+            "Python",
+            "Bash",
+            "Go"
+        ],
+        "soft_skills": [
+            "Problem Solving",
+            "Collaboration",
+            "Incident Management",
+            "Documentation"
+        ]
+    },
+    "certifications": [
+        "AWS Certified Solutions Architect - Professional",
+        "Certified Kubernetes Administrator (CKA)",
+        "HashiCorp Certified: Terraform Associate"
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "Native"
+        },
+        {
+            "language": "Korean",
+            "proficiency": "Conversational"
+        }
+    ]
+}

@@ -1,8 +1,30 @@
 # Scripts Directory
 
-This directory contains core utilities and experiment runners for the HR AI Lab.
+This directory contains core utilities, dataset generators, and experiment runners for the HR AI Lab.
 
 ## Files
+
+### `generate_datasets.py`
+Generates synthetic HR datasets including CVs, interview transcripts, and performance notes.
+
+**Usage:**
+```bash
+# Generate all default datasets
+python generate_datasets.py --all
+
+# Generate specific numbers of each type
+python generate_datasets.py --cvs 20 --interviews 10 --performance 15
+
+# Use custom random seed for reproducibility
+python generate_datasets.py --all --seed 123
+```
+
+**Arguments:**
+- `--all`: Generate all dataset types with default counts
+- `--cvs N`: Generate N CVs (default: 10)
+- `--interviews N`: Generate N interview transcripts (default: 5)
+- `--performance N`: Generate N performance notes (default: 5)
+- `--seed N`: Random seed for reproducible generation (default: 42)
 
 ### `utils.py`
 Core utility functions including:

@@ -1,0 +1,128 @@
+{
+    "interview_id": "INT004",
+    "candidate_name": "James Wilson",
+    "candidate_id": "CV011",
+    "position": "Sales Engineer",
+    "interviewer": "Robert Taylor (Head of Sales)",
+    "date": "2024-11-22",
+    "duration_minutes": 40,
+    "interview_type": "Sales + Technical",
+    "transcript": [
+        {
+            "speaker": "Interviewer",
+            "timestamp": "00:00",
+            "text": "James, thanks for coming in. Tell me about yourself and why you're interested in sales engineering."
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "00:08",
+            "text": "Well, um, I've been in technical support for about 3 years, and I've always liked the customer-facing side. I think sales engineering would be, you know, a good next step. I like explaining technical stuff to people."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "00:25",
+            "text": "Can you walk me through a time when you had to explain a complex technical concept to a non-technical customer?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "00:35",
+            "text": "Sure... um... there was this one time when a customer was confused about our API integration. They didn't really understand REST APIs, so I had to... I mean, I told them it's like, you know, a way for systems to talk to each other. They seemed to get it after that."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "00:55",
+            "text": "Okay. How would you handle a situation where a customer is asking for a feature we don't currently have?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "01:02",
+            "text": "Hmm, I guess I would tell them we don't have it but maybe we'll build it in the future? Or maybe suggest a workaround if there is one."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "01:15",
+            "text": "Have you ever conducted a product demo or presentation?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "01:20",
+            "text": "Not really a formal demo, no. I've done screenshares with customers to walk them through using the product, but nothing like a sales presentation. But I'm definitely willing to learn how to do that."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "01:35",
+            "text": "What do you know about our company and our products?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "01:40",
+            "text": "You guys do... software solutions for businesses. I saw on your website you have different products, though I'm not super familiar with all of them yet. I figured I'd learn more about the specifics if I got the job."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "02:00",
+            "text": "I see. Tell me about a time when you exceeded a customer's expectations."
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "02:08",
+            "text": "Um, let me think... I mean, I always try to respond to customer tickets quickly. There was one time I stayed late to help a customer with an urgent issue, and they were happy about that."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "02:25",
+            "text": "That's good initiative. How comfortable are you with public speaking or presenting to large groups?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "02:32",
+            "text": "Honestly, I'm not super comfortable with that. I get a bit nervous speaking in front of people. But I think I could get better with practice."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "02:45",
+            "text": "Sales engineers often need to think on their feet during customer meetings. Can you give me an example of when you had to improvise or adapt quickly?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "02:55",
+            "text": "Uh... that's a tough one. I usually like to prepare in advance. I can't really think of a specific example right now."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "03:08",
+            "text": "Alright. Last question - where do you see yourself in 5 years?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "03:15",
+            "text": "Maybe in management? Or continuing in sales engineering, I guess. I haven't really thought that far ahead to be honest."
+        },
+        {
+            "speaker": "Interviewer",
+            "timestamp": "03:25",
+            "text": "Okay James, thanks for your time today. Do you have any questions for me?"
+        },
+        {
+            "speaker": "Candidate",
+            "timestamp": "03:30",
+            "text": "Um, what's the salary range for this position?"
+        }
+    ],
+    "notes": {
+        "technical_skills": "Limited depth. Support background but unclear if sufficient for sales engineering role.",
+        "communication": "Weak. Vague answers, uses filler words frequently, lacks confidence in responses. Did not demonstrate ability to articulate value propositions.",
+        "preparation": "Poor. Did not research company or products. Asked about compensation before learning about role.",
+        "sales_aptitude": "Questionable. No demonstrated experience with demos, presentations, or consultative selling. Uncomfortable with public speaking.",
+        "enthusiasm": "Low. Answers were perfunctory, didn't show genuine interest in the role or company.",
+        "red_flags": "Lack of preparation, inability to provide concrete examples, admitted discomfort with key job requirements."
+    },
+    "rating": {
+        "technical": 2,
+        "communication": 2,
+        "sales_skills": 1.5,
+        "preparation": 1,
+        "overall": 1.5
+    },
+    "recommendation": "Not a fit for sales engineering role. Candidate lacks necessary communication skills, preparation, and sales aptitude. Would need significant development to succeed in this position."
+}

@@ -1,0 +1,122 @@
+{
+    "candidate_id": "CV004",
+    "name": "Dr. Priya Sharma",
+    "email": "priya.sharma@email.com",
+    "phone": "+1-555-0104",
+    "location": "Seattle, WA",
+    "summary": "Data Scientist with PhD in Machine Learning and 5 years of industry experience. Expert in building predictive models, deploying ML systems at scale, and translating complex analyses into actionable business insights.",
+    "experience": [
+        {
+            "title": "Senior Data Scientist",
+            "company": "E-Commerce Giant",
+            "location": "Seattle, WA",
+            "start_date": "2022-09",
+            "end_date": "present",
+            "responsibilities": [
+                "Developed recommendation system serving 100M+ users, increasing conversion by 18%",
+                "Built fraud detection model reducing false positives by 40% using XGBoost and neural networks",
+                "Led A/B testing framework implementation for data-driven product decisions",
+                "Mentored 2 junior data scientists and conducted ML training sessions",
+                "Published research on scalable ML pipelines at internal tech conference"
+            ]
+        },
+        {
+            "title": "Data Scientist",
+            "company": "Healthcare Analytics Inc.",
+            "location": "Boston, MA",
+            "start_date": "2020-06",
+            "end_date": "2022-08",
+            "responsibilities": [
+                "Developed predictive models for patient readmission risk using Python and TensorFlow",
+                "Created ETL pipelines processing 10M+ medical records using PySpark",
+                "Collaborated with clinicians to ensure model interpretability and ethical AI practices",
+                "Reduced model training time by 50% through distributed computing optimization"
+            ]
+        },
+        {
+            "title": "Machine Learning Research Intern",
+            "company": "AI Research Lab",
+            "location": "Stanford, CA",
+            "start_date": "2019-06",
+            "end_date": "2019-12",
+            "responsibilities": [
+                "Researched novel deep learning architectures for natural language understanding",
+                "Co-authored paper on transfer learning published at NeurIPS 2019",
+                "Implemented research prototypes using PyTorch"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "PhD in Computer Science (Machine Learning)",
+            "institution": "Stanford University",
+            "graduation_year": "2020",
+            "thesis": "Efficient Transfer Learning for Low-Resource Natural Language Tasks"
+        },
+        {
+            "degree": "Master of Science in Computer Science",
+            "institution": "Indian Institute of Technology, Delhi",
+            "graduation_year": "2015",
+            "gpa": "3.9/4.0"
+        },
+        {
+            "degree": "Bachelor of Technology in Computer Engineering",
+            "institution": "Indian Institute of Technology, Delhi",
+            "graduation_year": "2013",
+            "gpa": "3.8/4.0"
+        }
+    ],
+    "skills": {
+        "programming_languages": [
+            "Python",
+            "R",
+            "SQL",
+            "Scala"
+        ],
+        "ml_frameworks": [
+            "TensorFlow",
+            "PyTorch",
+            "scikit-learn",
+            "XGBoost",
+            "Keras"
+        ],
+        "data_tools": [
+            "PySpark",
+            "Pandas",
+            "NumPy",
+            "Jupyter",
+            "Apache Airflow"
+        ],
+        "cloud_platforms": [
+            "AWS (SageMaker, EMR)",
+            "GCP",
+            "Azure ML"
+        ],
+        "visualization": [
+            "Matplotlib",
+            "Seaborn",
+            "Plotly",
+            "Tableau"
+        ],
+        "soft_skills": [
+            "Research",
+            "Technical Communication",
+            "Collaboration",
+            "Mentoring"
+        ]
+    },
+    "publications": [
+        "Sharma, P. et al. (2019). 'Transfer Learning for Low-Resource NLP'. NeurIPS.",
+        "Sharma, P. & Lee, J. (2021). 'Scalable ML Pipelines in Healthcare'. JMLR."
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "Fluent"
+        },
+        {
+            "language": "Hindi",
+            "proficiency": "Native"
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "candidate_id": "CV002",
+    "name": "Alex Rodriguez",
+    "email": "alex.rodriguez@email.com",
+    "phone": "+1-555-0102",
+    "location": "Austin, TX",
+    "summary": "Recent Computer Science graduate with strong foundation in software development and passion for learning. Completed multiple internships and personal projects demonstrating full-stack development skills.",
+    "experience": [
+        {
+            "title": "Software Engineering Intern",
+            "company": "BigTech Solutions",
+            "location": "Austin, TX",
+            "start_date": "2024-06",
+            "end_date": "2024-08",
+            "responsibilities": [
+                "Developed internal tooling using React and Python Flask",
+                "Fixed 15+ bugs in the production codebase",
+                "Wrote unit tests achieving 85% code coverage",
+                "Participated in code reviews and daily standups"
+            ]
+        },
+        {
+            "title": "Web Development Intern",
+            "company": "Local Marketing Agency",
+            "location": "Austin, TX",
+            "start_date": "2023-05",
+            "end_date": "2023-08",
+            "responsibilities": [
+                "Built responsive websites for small business clients using WordPress",
+                "Implemented custom JavaScript features for client websites",
+                "Collaborated with designers to translate mockups into code"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Science in Computer Science",
+            "institution": "University of Texas at Austin",
+            "graduation_year": "2024",
+            "gpa": "3.5/4.0",
+            "relevant_coursework": [
+                "Data Structures",
+                "Algorithms",
+                "Database Systems",
+                "Web Development"
+            ]
+        }
+    ],
+    "skills": {
+        "programming_languages": [
+            "Python",
+            "JavaScript",
+            "Java",
+            "HTML/CSS"
+        ],
+        "frameworks": [
+            "React",
+            "Flask",
+            "Spring Boot"
+        ],
+        "tools": [
+            "Git",
+            "VS Code",
+            "PostgreSQL",
+            "Docker"
+        ],
+        "soft_skills": [
+            "Quick Learner",
+            "Team Collaboration",
+            "Problem Solving",
+            "Adaptability"
+        ]
+    },
+    "projects": [
+        {
+            "name": "Task Management App",
+            "description": "Full-stack web application for task tracking with user authentication",
+            "technologies": [
+                "React",
+                "Node.js",
+                "MongoDB"
+            ],
+            "link": "github.com/alexr/task-manager"
+        },
+        {
+            "name": "Weather Dashboard",
+            "description": "Real-time weather information using external APIs",
+            "technologies": [
+                "JavaScript",
+                "OpenWeather API",
+                "Chart.js"
+            ],
+            "link": "github.com/alexr/weather-dash"
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "Native"
+        },
+        {
+            "language": "Spanish",
+            "proficiency": "Native"
+        }
+    ]
+}

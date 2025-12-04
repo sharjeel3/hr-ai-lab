@@ -1,0 +1,70 @@
+{
+    "performance_note_id": "PN004",
+    "employee_id": "EMP4892",
+    "employee_name": "Amanda Foster",
+    "position": "Marketing Manager",
+    "manager": "James Wilson",
+    "review_period": "2024 Q3-Q4",
+    "date_created": "2024-11-28",
+    "notes": [
+        {
+            "date": "2024-09-12",
+            "category": "Performance",
+            "observation": "Amanda's campaigns continue to meet baseline metrics but haven't shown the growth or innovation we'd expect. The Q3 email campaign had average open rates (18%) and click-through rates (2.1%), which are acceptable but not standout. Haven't seen her test new approaches or channels."
+        },
+        {
+            "date": "2024-09-30",
+            "category": "Initiative",
+            "observation": "Amanda completes assigned tasks reliably but rarely goes beyond what's asked. For example, when I asked her to analyze campaign performance, she provided basic metrics but didn't dig into the 'why' or suggest improvements. She seems to be doing the minimum required rather than driving results."
+        },
+        {
+            "date": "2024-10-18",
+            "category": "Positive",
+            "observation": "Amanda organized our participation in the industry conference, which went smoothly. She handled logistics well, coordinated with vendors, and everything was executed professionally. She's reliable for operational tasks and event coordination."
+        },
+        {
+            "date": "2024-11-01",
+            "category": "Creativity/Innovation",
+            "observation": "During brainstorming sessions for the product launch campaign, Amanda's contributions were safe and conventional. While not bad ideas, they lacked creativity or differentiation. When I encouraged her to think bigger, she seemed hesitant to take risks. In a competitive market, we need more bold thinking."
+        },
+        {
+            "date": "2024-11-15",
+            "category": "Growth Mindset",
+            "observation": "When I suggested Amanda attend the digital marketing summit to learn about new trends, she said she was too busy with current projects. I'm concerned about her willingness to invest in professional development. Marketing is evolving rapidly, and continuous learning is essential."
+        }
+    ],
+    "strengths": [
+        "Reliable and organized",
+        "Good at execution and project management",
+        "Professional in client and vendor interactions",
+        "Meets deadlines and handles logistics well"
+    ],
+    "areas_for_development": [
+        "Needs to show more initiative and proactive thinking",
+        "Should develop more creative and innovative campaign approaches",
+        "Requires stronger analytical skills - going beyond surface-level metrics",
+        "Must invest in continuous learning and staying current with marketing trends",
+        "Could be more ambitious in setting and achieving goals"
+    ],
+    "goals_progress": {
+        "goal_1": {
+            "goal": "Increase email engagement rates by 15%",
+            "status": "Not achieved - rates remained flat",
+            "notes": "Baseline execution but no improvement or innovation"
+        },
+        "goal_2": {
+            "goal": "Launch two experimental marketing campaigns",
+            "status": "Not completed",
+            "notes": "Focused on maintaining existing campaigns instead"
+        },
+        "goal_3": {
+            "goal": "Develop expertise in marketing automation",
+            "status": "Minimal progress",
+            "notes": "Hasn't pursued training opportunities"
+        }
+    },
+    "overall_performance": "Meets Basic Expectations",
+    "concerns": "Amanda is a solid operator who gets tasks done, but she's not growing or driving results at the level expected for a Marketing Manager role. She needs to show more initiative, creativity, and willingness to push boundaries. There's a gap between her current performance and what this role requires, particularly around strategic thinking and innovation.",
+    "recommended_rating": "2.5/5",
+    "action_plan": "Need to have direct conversation about performance expectations and career development. Will set specific, measurable goals for next quarter focused on innovation and results. If improvement isn't seen in Q1 2025, may need to consider formal performance improvement plan."
+}

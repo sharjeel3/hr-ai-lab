@@ -1,0 +1,111 @@
+{
+    "candidate_id": "CV007",
+    "name": "Aisha Thompson",
+    "email": "aisha.t@email.com",
+    "phone": "+1-555-0107",
+    "location": "Chicago, IL",
+    "summary": "Human Resources Business Partner with 10+ years of experience in talent management, organizational development, and employee relations. Proven track record of implementing HR strategies that drive business results and enhance employee experience.",
+    "experience": [
+        {
+            "title": "Senior HR Business Partner",
+            "company": "Global Tech Corporation",
+            "location": "Chicago, IL",
+            "start_date": "2020-06",
+            "end_date": "present",
+            "responsibilities": [
+                "Partner with C-suite and department heads to align HR strategy with business objectives",
+                "Lead talent acquisition for engineering organization, reducing time-to-hire by 30%",
+                "Designed and implemented performance management system for 500+ employees",
+                "Reduced voluntary turnover by 15% through retention initiatives and career development programs",
+                "Manage employee relations issues, conducting investigations and providing guidance to managers",
+                "Lead diversity, equity, and inclusion initiatives resulting in 25% increase in diverse hires"
+            ]
+        },
+        {
+            "title": "HR Business Partner",
+            "company": "Financial Services Group",
+            "location": "Chicago, IL",
+            "start_date": "2017-03",
+            "end_date": "2020-05",
+            "responsibilities": [
+                "Supported 300+ employees across multiple departments",
+                "Facilitated organizational restructuring and change management initiatives",
+                "Conducted training sessions on performance management and leadership development",
+                "Partnered with legal team on compliance and employment law matters",
+                "Managed annual compensation review process and promotion cycles"
+            ]
+        },
+        {
+            "title": "HR Generalist",
+            "company": "Manufacturing Company",
+            "location": "Milwaukee, WI",
+            "start_date": "2014-07",
+            "end_date": "2017-02",
+            "responsibilities": [
+                "Managed full-cycle recruitment for hourly and salaried positions",
+                "Administered benefits programs and conducted open enrollment sessions",
+                "Maintained HRIS system and generated HR analytics reports",
+                "Coordinated onboarding and offboarding processes"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Master of Science in Human Resource Management",
+            "institution": "DePaul University",
+            "graduation_year": "2014"
+        },
+        {
+            "degree": "Bachelor of Arts in Psychology",
+            "institution": "Northwestern University",
+            "graduation_year": "2012",
+            "gpa": "3.6/4.0"
+        }
+    ],
+    "skills": {
+        "hr_expertise": [
+            "Talent Management",
+            "Performance Management",
+            "Employee Relations",
+            "Compensation & Benefits",
+            "Organizational Development"
+        ],
+        "compliance": [
+            "Employment Law",
+            "FMLA",
+            "ADA",
+            "EEO",
+            "HR Compliance"
+        ],
+        "tools": [
+            "Workday",
+            "SAP SuccessFactors",
+            "BambooHR",
+            "Greenhouse",
+            "LinkedIn Recruiter"
+        ],
+        "analytics": [
+            "Excel",
+            "HR Metrics",
+            "People Analytics"
+        ],
+        "soft_skills": [
+            "Strategic Thinking",
+            "Stakeholder Management",
+            "Conflict Resolution",
+            "Change Management",
+            "Coaching"
+        ]
+    },
+    "certifications": [
+        "Senior Professional in Human Resources (SPHR)",
+        "SHRM Senior Certified Professional (SHRM-SCP)",
+        "Certified Diversity Executive (CDE)"
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "Native"
+        }
+    ]
+}

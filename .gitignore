@@ -49,7 +49,9 @@ results/*.json
 results/*.csv
 results/dashboards/*
 !results/.gitkeep
-datasets/*/
+
+# Datasets - uncomment below to exclude from git
+# datasets/*/
 !datasets/.gitkeep
 
 # Logs

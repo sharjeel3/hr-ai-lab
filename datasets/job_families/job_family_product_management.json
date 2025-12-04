@@ -1,0 +1,209 @@
+{
+    "job_family_id": "JF002",
+    "family_name": "Product Management",
+    "description": "Professionals who define product strategy, prioritize features, and drive product development to meet customer needs and business goals",
+    "career_levels": [
+        {
+            "level": 1,
+            "title": "Associate Product Manager",
+            "years_experience": "0-2",
+            "salary_range": "$80,000-$110,000",
+            "key_responsibilities": [
+                "Support senior PMs in feature definition and user research",
+                "Write user stories and acceptance criteria",
+                "Analyze product metrics and user feedback",
+                "Coordinate with engineering and design teams",
+                "Create product documentation and presentations"
+            ],
+            "required_skills": [
+                "Strong analytical and problem-solving skills",
+                "Basic understanding of product development lifecycle",
+                "Excellent communication and collaboration",
+                "Data analysis skills (SQL, Excel)",
+                "User empathy and customer focus",
+                "Project management fundamentals"
+            ],
+            "nice_to_have": [
+                "MBA or relevant business degree",
+                "Technical background or CS degree",
+                "Previous internship in product management",
+                "Familiarity with product tools (JIRA, Figma, Analytics platforms)"
+            ]
+        },
+        {
+            "level": 2,
+            "title": "Product Manager",
+            "years_experience": "2-5",
+            "salary_range": "$110,000-$150,000",
+            "key_responsibilities": [
+                "Own product roadmap for specific feature area",
+                "Conduct user research and define product requirements",
+                "Prioritize features based on impact and effort",
+                "Work with engineering to deliver quarterly releases",
+                "Track KPIs and report on product performance",
+                "Coordinate go-to-market with marketing and sales"
+            ],
+            "required_skills": [
+                "Proven ability to ship products",
+                "Strong product sense and UX intuition",
+                "Data-driven decision making",
+                "Stakeholder management across functions",
+                "Understanding of agile/scrum methodologies",
+                "Ability to write clear product requirements",
+                "Competitive analysis and market research"
+            ],
+            "nice_to_have": [
+                "Experience with A/B testing",
+                "Technical depth to engage with engineers",
+                "Previous startup experience",
+                "Certification in product management frameworks"
+            ],
+            "promotion_criteria": "Successfully launches features with measurable impact, demonstrates strategic thinking, strong cross-functional leadership"
+        },
+        {
+            "level": 3,
+            "title": "Senior Product Manager",
+            "years_experience": "5-8",
+            "salary_range": "$150,000-$200,000",
+            "key_responsibilities": [
+                "Own product strategy for major product line",
+                "Define long-term vision and roadmap",
+                "Lead discovery for complex product problems",
+                "Make strategic trade-off decisions",
+                "Mentor junior PMs",
+                "Influence company product direction",
+                "Present to executives and board"
+            ],
+            "required_skills": [
+                "Track record of successful product launches with business impact",
+                "Strategic thinking and vision-setting",
+                "Advanced data analysis and metrics interpretation",
+                "Excellent stakeholder and upward management",
+                "Strong product intuition validated by results",
+                "Ability to say no and prioritize ruthlessly",
+                "Experience with monetization and business models"
+            ],
+            "nice_to_have": [
+                "Experience launching 0-to-1 products",
+                "Industry expertise in specific domain",
+                "MBA from top program",
+                "Experience managing other PMs"
+            ],
+            "promotion_criteria": "Drives significant business outcomes, influences org-wide product strategy, demonstrates thought leadership"
+        },
+        {
+            "level": 4,
+            "title": "Principal Product Manager / Group PM",
+            "years_experience": "8-12",
+            "salary_range": "$200,000-$270,000",
+            "key_responsibilities": [
+                "Define strategy across multiple product lines",
+                "Lead cross-functional initiatives company-wide",
+                "Manage team of product managers",
+                "Represent product org in executive planning",
+                "Drive product culture and best practices",
+                "Partner with C-suite on company strategy"
+            ],
+            "required_skills": [
+                "Exceptional strategic and business acumen",
+                "Proven ability to scale products and teams",
+                "Outstanding leadership and coaching",
+                "Executive presence and communication",
+                "Deep customer and market insights",
+                "Experience building product organizations"
+            ],
+            "promotion_criteria": "Organizational-level impact, develops other PMs successfully, shapes company direction"
+        },
+        {
+            "level": 5,
+            "title": "Director / VP of Product",
+            "years_experience": "12+",
+            "salary_range": "$270,000-$400,000+",
+            "key_responsibilities": [
+                "Set product vision and strategy for entire company",
+                "Build and scale product management organization",
+                "Partner with CEO on company direction",
+                "Own P&L for product lines",
+                "Represent product in board meetings",
+                "Drive market positioning and competitive strategy"
+            ],
+            "required_skills": [
+                "Track record of building successful products at scale",
+                "Executive leadership and organizational building",
+                "Deep understanding of business and financial metrics",
+                "Industry thought leadership",
+                "M&A and partnership strategy experience"
+            ],
+            "promotion_criteria": "Demonstrates company-defining product leadership, builds world-class PM teams"
+        }
+    ],
+    "adjacent_roles": [
+        {
+            "role": "Product Marketing Manager",
+            "transition_path": "From Product Manager with interest in go-to-market, positioning, and marketing strategy",
+            "key_differences": "Focus on external communication, positioning, sales enablement vs internal product development"
+        },
+        {
+            "role": "Program Manager",
+            "transition_path": "From Product Manager with strength in execution, coordination, and process optimization",
+            "key_differences": "Focus on program execution across teams vs product strategy and vision"
+        },
+        {
+            "role": "User Researcher",
+            "transition_path": "From Product Manager with deep passion for research methods and user insights",
+            "key_differences": "Specialized focus on research methodology vs broader product ownership"
+        },
+        {
+            "role": "Strategy / Operations",
+            "transition_path": "From Senior PM with strong analytical and business strategy skills",
+            "key_differences": "Company-wide strategic initiatives vs product-specific ownership"
+        }
+    ],
+    "common_skills_across_levels": [
+        "Customer empathy",
+        "Data-driven decision making",
+        "Cross-functional collaboration",
+        "Communication",
+        "Prioritization"
+    ],
+    "skill_development_path": [
+        {
+            "stage": "Early Career (0-2 years)",
+            "focus_areas": [
+                "Learn product development process",
+                "Build analytical skills",
+                "Understand customer research",
+                "Develop communication skills"
+            ]
+        },
+        {
+            "stage": "Mid Career (2-5 years)",
+            "focus_areas": [
+                "Product strategy",
+                "Stakeholder management",
+                "Roadmap planning",
+                "Business metrics",
+                "Leadership skills"
+            ]
+        },
+        {
+            "stage": "Senior Career (5-8 years)",
+            "focus_areas": [
+                "Strategic vision",
+                "Organizational influence",
+                "Mentoring",
+                "Executive communication",
+                "Business model innovation"
+            ]
+        },
+        {
+            "stage": "Principal+ (8+ years)",
+            "focus_areas": [
+                "Organizational leadership",
+                "Company strategy",
+                "Team building",
+                "Industry thought leadership"
+            ]
+        }
+    ]
+}

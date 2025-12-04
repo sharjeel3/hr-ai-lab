@@ -36,19 +36,20 @@ Bias Testing: Should be applied across ALL experiments, not just Experiment F
 
 
 ## Complete TODO List:
-- Setup project structure and directories
-- Create synthetic datasets
-- Build core utility scripts
-- Implement CV Screening Benchmark (Experiment A)
-- Implement Interview Summarisation Agent (Experiment B)
-- Implement Performance Review Auto-Draft (Experiment C)
-- Implement Career Pathway Recommender (Experiment D)
-- Implement Workflow Agent Simulation (Experiment E)
-- Implement Ethical AI Bias Testing Suite (Experiment F)
-- Implement HRIS Data Quality Agent (Experiment G)
-- Implement Culture Transformation Coach (Experiment H)
-- Implement HR Request Routing Agent (Experiment I)
-- Create evaluation and benchmarking framework
-- Setup results dashboards and visualisation
-- Add configuration and environment setup
-- Document each experiment with detailed READMEs
+
+1. Setup project structure and directories
+2. Create synthetic datasets
+3. Build core utility scripts
+4. Implement CV Screening Benchmark (Experiment A)
+5. Implement Interview Summarisation Agent (Experiment B)
+6. Implement Performance Review Auto-Draft (Experiment C)
+7. Implement Career Pathway Recommender (Experiment D)
+8. Implement Workflow Agent Simulation (Experiment E)
+9. Implement Ethical AI Bias Testing Suite (Experiment F)
+10. Implement HRIS Data Quality Agent (Experiment G)
+11. Implement Culture Transformation Coach (Experiment H)
+12. Implement HR Request Routing Agent (Experiment I)
+13. Create evaluation and benchmarking framework
+14. Setup results dashboards and visualisation
+15. Add configuration and environment setup
+16. Document each experiment with detailed READMEs

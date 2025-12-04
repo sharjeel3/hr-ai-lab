@@ -1,0 +1,75 @@
+{
+    "performance_note_id": "PN003",
+    "employee_id": "EMP3421",
+    "employee_name": "Rajesh Patel",
+    "position": "Senior Data Analyst",
+    "manager": "Michelle Rodriguez",
+    "review_period": "2024 Q3-Q4",
+    "date_created": "2024-11-27",
+    "notes": [
+        {
+            "date": "2024-09-05",
+            "category": "Project Delivery",
+            "observation": "Rajesh completed the customer segmentation analysis and presented findings to the executive team. His analysis was thorough, data-driven, and included actionable recommendations. The exec team specifically praised the clarity of his presentation and the business value of the insights. This work directly informed our Q4 marketing strategy."
+        },
+        {
+            "date": "2024-09-20",
+            "category": "Technical Innovation",
+            "observation": "Rajesh built an automated reporting dashboard using Tableau that replaced several manual weekly reports. This saves the analytics team approximately 8 hours per week. He documented the process and trained other analysts on how to maintain it. Great example of working smarter, not harder."
+        },
+        {
+            "date": "2024-10-12",
+            "category": "Collaboration",
+            "observation": "Rajesh has been excellent at partnering with the product team. He proactively reaches out to understand their data needs, attends their planning meetings, and provides quick turnaround on ad-hoc analysis requests. The product managers have specifically mentioned how much they value his partnership."
+        },
+        {
+            "date": "2024-10-28",
+            "category": "Knowledge Sharing",
+            "observation": "Rajesh organized and led a workshop on SQL best practices for the analytics team. He created excellent training materials that we can reuse. Several junior analysts mentioned this was the most useful training they've received. He's becoming a go-to resource for SQL and database optimization questions."
+        },
+        {
+            "date": "2024-11-10",
+            "category": "Strategic Thinking",
+            "observation": "During the quarterly business review prep, Rajesh went beyond just pulling numbers. He identified trends in customer behavior that weren't initially on our radar and proposed hypotheses for what's driving them. His strategic thinking adds significant value beyond technical execution."
+        },
+        {
+            "date": "2024-11-22",
+            "category": "Quality",
+            "observation": "Rajesh's work is consistently high quality. His analyses are rigorous, his code is clean and well-commented, and he's thorough about validating data before sharing insights. I rarely need to review his work for errors. This reliability is valuable in a senior analyst."
+        }
+    ],
+    "strengths": [
+        "Excellent analytical and technical skills (SQL, Python, Tableau)",
+        "Strong business acumen - connects data insights to business outcomes",
+        "Proactive and takes initiative to solve problems",
+        "Great collaborator and communicator across teams",
+        "Invests in developing others through training and knowledge sharing",
+        "Consistently produces high-quality work",
+        "Strategic thinker who sees the bigger picture"
+    ],
+    "areas_for_development": [
+        "Continue building machine learning skills (currently taking online course)",
+        "Could take on larger cross-functional project leadership role"
+    ],
+    "goals_progress": {
+        "goal_1": {
+            "goal": "Deliver customer segmentation analysis to inform marketing strategy",
+            "status": "Completed successfully with strong business impact",
+            "notes": "Exceeded expectations - insights directly shaped Q4 strategy"
+        },
+        "goal_2": {
+            "goal": "Reduce time spent on manual reporting",
+            "status": "Completed - built automated dashboard solution",
+            "notes": "Innovative solution that benefits entire team"
+        },
+        "goal_3": {
+            "goal": "Develop machine learning capabilities",
+            "status": "In progress",
+            "notes": "Enrolled in ML course, looking for opportunities to apply new skills"
+        }
+    },
+    "overall_performance": "Significantly Exceeds Expectations",
+    "promotion_readiness": "Rajesh is ready for promotion to Staff Data Analyst / Analytics Lead. He demonstrates technical excellence, strategic thinking, and leadership through mentoring and innovation. His work has clear business impact and he operates at a level beyond Senior Analyst.",
+    "recommended_rating": "5/5",
+    "additional_notes": "One of our strongest performers. Should discuss promotion path and opportunities to take on formal team lead responsibilities."
+}

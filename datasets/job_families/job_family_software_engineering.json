@@ -1,0 +1,203 @@
+{
+    "job_family_id": "JF001",
+    "family_name": "Software Engineering",
+    "description": "Professionals who design, develop, test, and maintain software applications and systems",
+    "career_levels": [
+        {
+            "level": 1,
+            "title": "Junior Software Engineer",
+            "years_experience": "0-2",
+            "salary_range": "$70,000-$95,000",
+            "key_responsibilities": [
+                "Write clean, maintainable code under supervision",
+                "Fix bugs and implement small features",
+                "Participate in code reviews",
+                "Learn team processes and coding standards",
+                "Collaborate with team members on assigned tasks"
+            ],
+            "required_skills": [
+                "Proficiency in at least one programming language",
+                "Understanding of data structures and algorithms",
+                "Basic knowledge of version control (Git)",
+                "Familiarity with software development lifecycle",
+                "Problem-solving abilities"
+            ],
+            "nice_to_have": [
+                "Internship experience",
+                "Personal projects or open-source contributions",
+                "Computer Science degree or bootcamp certification"
+            ]
+        },
+        {
+            "level": 2,
+            "title": "Software Engineer",
+            "years_experience": "2-5",
+            "salary_range": "$95,000-$130,000",
+            "key_responsibilities": [
+                "Independently design and implement features",
+                "Write technical documentation",
+                "Participate in architectural discussions",
+                "Mentor junior engineers",
+                "Estimate project timelines",
+                "Debug complex production issues"
+            ],
+            "required_skills": [
+                "Strong proficiency in multiple programming languages",
+                "Experience with databases (SQL and/or NoSQL)",
+                "Understanding of API design and microservices",
+                "Knowledge of testing practices and frameworks",
+                "Solid understanding of software design patterns",
+                "Experience with cloud platforms (AWS, GCP, or Azure)"
+            ],
+            "nice_to_have": [
+                "Experience with CI/CD pipelines",
+                "Knowledge of containerization (Docker, Kubernetes)",
+                "Contributions to technical blog or conference talks"
+            ],
+            "promotion_criteria": "Demonstrates consistent high-quality work, shows initiative, mentors others effectively"
+        },
+        {
+            "level": 3,
+            "title": "Senior Software Engineer",
+            "years_experience": "5-8",
+            "salary_range": "$130,000-$175,000",
+            "key_responsibilities": [
+                "Lead technical design for major features or systems",
+                "Make architectural decisions for team projects",
+                "Mentor multiple engineers and conduct technical interviews",
+                "Drive technical standards and best practices",
+                "Influence product roadmap with technical insights",
+                "Handle complex performance optimization and scalability challenges"
+            ],
+            "required_skills": [
+                "Expert-level coding skills in primary language(s)",
+                "Deep understanding of system design and architecture",
+                "Experience scaling applications to high traffic",
+                "Strong debugging and problem-solving skills",
+                "Excellent technical communication",
+                "Experience with distributed systems",
+                "Knowledge of security best practices"
+            ],
+            "nice_to_have": [
+                "Open-source project maintainer experience",
+                "Experience with multiple tech stacks",
+                "Technical leadership or architect certifications"
+            ],
+            "promotion_criteria": "Demonstrates technical leadership, influences team direction, delivers high-impact projects"
+        },
+        {
+            "level": 4,
+            "title": "Staff Software Engineer",
+            "years_experience": "8-12",
+            "salary_range": "$175,000-$230,000",
+            "key_responsibilities": [
+                "Define technical strategy for multiple teams or entire product areas",
+                "Lead cross-team technical initiatives",
+                "Identify and resolve organizational technical debt",
+                "Establish engineering standards across the organization",
+                "Mentor senior engineers and influence hiring strategy",
+                "Represent engineering in company-wide strategic planning"
+            ],
+            "required_skills": [
+                "Exceptional technical expertise across multiple domains",
+                "Strong architectural vision and execution",
+                "Ability to influence without direct authority",
+                "Strategic thinking and business acumen",
+                "Outstanding communication skills with technical and non-technical audiences",
+                "Experience leading large-scale technical migrations"
+            ],
+            "promotion_criteria": "Demonstrates organizational impact, technical thought leadership, ability to multiply effectiveness of others"
+        },
+        {
+            "level": 5,
+            "title": "Principal/Distinguished Engineer",
+            "years_experience": "12+",
+            "salary_range": "$230,000-$350,000+",
+            "key_responsibilities": [
+                "Set technical vision for the entire engineering organization",
+                "Drive company-wide technical strategy and innovation",
+                "Represent the company in industry forums and conferences",
+                "Solve the most complex technical challenges",
+                "Influence technology choices at the highest level",
+                "Build engineering culture and attract top talent"
+            ],
+            "required_skills": [
+                "Recognized expert in their field",
+                "Track record of solving unprecedented technical challenges",
+                "Ability to influence industry trends",
+                "Executive-level communication and strategic thinking",
+                "Deep understanding of business strategy and technology alignment"
+            ],
+            "promotion_criteria": "Demonstrates company-wide technical impact, industry recognition, transformational leadership"
+        }
+    ],
+    "adjacent_roles": [
+        {
+            "role": "Engineering Manager",
+            "transition_path": "From Senior Software Engineer or Staff Engineer with demonstrated people leadership interest",
+            "key_differences": "Focus shifts from technical execution to people management, team performance, and organizational effectiveness"
+        },
+        {
+            "role": "Solutions Architect",
+            "transition_path": "From Senior or Staff Engineer with strong client-facing and system design skills",
+            "key_differences": "More customer-facing, broader technical breadth, focus on designing solutions for clients"
+        },
+        {
+            "role": "DevOps Engineer",
+            "transition_path": "From Software Engineer with interest in infrastructure, automation, and operations",
+            "key_differences": "Focus on infrastructure, deployment, and operational excellence rather than feature development"
+        },
+        {
+            "role": "Data Engineer",
+            "transition_path": "From Software Engineer with interest in data systems, pipelines, and analytics infrastructure",
+            "key_differences": "Specialized focus on data processing, ETL, and analytics infrastructure"
+        }
+    ],
+    "common_skills_across_levels": [
+        "Programming proficiency",
+        "Problem-solving",
+        "Collaboration and teamwork",
+        "Code review practices",
+        "Continuous learning mindset"
+    ],
+    "skill_development_path": [
+        {
+            "stage": "Early Career (0-2 years)",
+            "focus_areas": [
+                "Master programming fundamentals",
+                "Learn team workflows",
+                "Build debugging skills",
+                "Understand testing"
+            ]
+        },
+        {
+            "stage": "Mid Career (2-5 years)",
+            "focus_areas": [
+                "System design",
+                "Database optimization",
+                "API design",
+                "Cloud platforms",
+                "Mentoring"
+            ]
+        },
+        {
+            "stage": "Senior Career (5-8 years)",
+            "focus_areas": [
+                "Architectural patterns",
+                "Scaling systems",
+                "Technical leadership",
+                "Cross-team collaboration",
+                "Strategic thinking"
+            ]
+        },
+        {
+            "stage": "Staff+ (8+ years)",
+            "focus_areas": [
+                "Organizational influence",
+                "Technical strategy",
+                "Industry thought leadership",
+                "Executive communication"
+            ]
+        }
+    ]
+}

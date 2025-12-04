@@ -1,0 +1,118 @@
+{
+    "candidate_id": "CV005",
+    "name": "Jessica Martinez",
+    "email": "jessica.martinez@email.com",
+    "phone": "+1-555-0105",
+    "location": "Denver, CO",
+    "summary": "Former marketing professional transitioning to UX Design with completed bootcamp certification and portfolio of projects. Strong background in user research, storytelling, and cross-functional collaboration. Eager to leverage marketing insights to create user-centered design solutions.",
+    "experience": [
+        {
+            "title": "Freelance UX/UI Designer",
+            "company": "Self-Employed",
+            "location": "Denver, CO",
+            "start_date": "2024-03",
+            "end_date": "present",
+            "responsibilities": [
+                "Designed website and mobile app mockups for 3 small business clients",
+                "Conducted user interviews and usability testing to inform design decisions",
+                "Created wireframes, prototypes, and high-fidelity designs using Figma",
+                "Collaborated with developers to ensure design implementation quality"
+            ]
+        },
+        {
+            "title": "Digital Marketing Manager",
+            "company": "RetailBrand Co.",
+            "location": "Denver, CO",
+            "start_date": "2020-01",
+            "end_date": "2024-02",
+            "responsibilities": [
+                "Managed digital marketing campaigns across email, social media, and paid ads",
+                "Analyzed customer behavior using Google Analytics to optimize conversion funnels",
+                "Conducted A/B tests on landing pages, improving conversion rate by 25%",
+                "Led website redesign project working closely with design agency",
+                "Created customer personas based on market research and data analysis"
+            ]
+        },
+        {
+            "title": "Marketing Coordinator",
+            "company": "Tech Startup",
+            "location": "Boulder, CO",
+            "start_date": "2018-06",
+            "end_date": "2019-12",
+            "responsibilities": [
+                "Supported marketing campaigns and content creation",
+                "Managed social media accounts and community engagement",
+                "Coordinated marketing events and trade show participation"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "UX Design Bootcamp Certificate",
+            "institution": "General Assembly",
+            "graduation_year": "2024",
+            "relevant_coursework": [
+                "User Research",
+                "Interaction Design",
+                "Prototyping",
+                "Design Systems"
+            ]
+        },
+        {
+            "degree": "Bachelor of Arts in Marketing",
+            "institution": "University of Colorado Boulder",
+            "graduation_year": "2018",
+            "gpa": "3.4/4.0"
+        }
+    ],
+    "skills": {
+        "design_tools": [
+            "Figma",
+            "Adobe XD",
+            "Sketch",
+            "InVision",
+            "Miro"
+        ],
+        "research_methods": [
+            "User Interviews",
+            "Usability Testing",
+            "Survey Design",
+            "Persona Development"
+        ],
+        "web_basics": [
+            "HTML",
+            "CSS",
+            "Basic JavaScript"
+        ],
+        "analytics": [
+            "Google Analytics",
+            "Hotjar",
+            "Mixpanel"
+        ],
+        "soft_skills": [
+            "User Empathy",
+            "Storytelling",
+            "Collaboration",
+            "Problem Solving",
+            "Adaptability"
+        ]
+    },
+    "portfolio": {
+        "link": "jessicamartinez.design",
+        "projects": [
+            "Fitness App Redesign - Improved user onboarding flow",
+            "E-commerce Checkout Optimization - Reduced cart abandonment",
+            "Local Restaurant Booking App - Mobile-first design"
+        ]
+    },
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "Native"
+        },
+        {
+            "language": "Spanish",
+            "proficiency": "Fluent"
+        }
+    ]
+}

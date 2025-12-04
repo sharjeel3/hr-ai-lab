@@ -1,0 +1,206 @@
+{
+    "job_family_id": "JF003",
+    "family_name": "Data Science & Analytics",
+    "description": "Professionals who extract insights from data, build predictive models, and enable data-driven decision making",
+    "career_levels": [
+        {
+            "level": 1,
+            "title": "Data Analyst",
+            "years_experience": "0-2",
+            "salary_range": "$65,000-$90,000",
+            "key_responsibilities": [
+                "Create reports and dashboards for business stakeholders",
+                "Perform ad-hoc data analysis to answer business questions",
+                "Clean and prepare data for analysis",
+                "Conduct basic statistical analysis",
+                "Document findings and present to teams"
+            ],
+            "required_skills": [
+                "Strong SQL skills",
+                "Excel/spreadsheet proficiency",
+                "Basic statistics knowledge",
+                "Data visualization (Tableau, PowerBI, or similar)",
+                "Clear communication of findings",
+                "Attention to detail"
+            ],
+            "nice_to_have": [
+                "Python or R programming",
+                "Experience with analytics tools (Google Analytics, Mixpanel)",
+                "Business domain knowledge",
+                "Statistics or quantitative degree"
+            ]
+        },
+        {
+            "level": 2,
+            "title": "Senior Data Analyst",
+            "years_experience": "2-5",
+            "salary_range": "$90,000-$125,000",
+            "key_responsibilities": [
+                "Lead complex analytical projects end-to-end",
+                "Design experiments and analyze A/B tests",
+                "Build automated reporting systems",
+                "Partner with product/business teams on strategy",
+                "Mentor junior analysts",
+                "Translate business problems into analytical frameworks"
+            ],
+            "required_skills": [
+                "Advanced SQL and database optimization",
+                "Statistical analysis and hypothesis testing",
+                "Programming skills (Python or R)",
+                "Strong business acumen",
+                "Stakeholder management",
+                "Experience with ETL and data pipelines"
+            ],
+            "nice_to_have": [
+                "Experience with cloud data platforms (Snowflake, BigQuery, Redshift)",
+                "Machine learning fundamentals",
+                "dbt or similar data transformation tools"
+            ],
+            "promotion_criteria": "Demonstrates analytical rigor, drives business impact through insights, strong collaboration"
+        },
+        {
+            "level": 3,
+            "title": "Data Scientist",
+            "years_experience": "3-6",
+            "salary_range": "$120,000-$165,000",
+            "key_responsibilities": [
+                "Build predictive models and machine learning solutions",
+                "Design and analyze experiments",
+                "Develop data products and algorithms",
+                "Collaborate with engineering to deploy models",
+                "Communicate complex findings to non-technical audiences",
+                "Mentor analysts and junior data scientists"
+            ],
+            "required_skills": [
+                "Strong programming skills (Python, R)",
+                "Machine learning algorithms and techniques",
+                "Statistical modeling and inference",
+                "Feature engineering and model evaluation",
+                "SQL and data manipulation",
+                "Experience with ML libraries (scikit-learn, TensorFlow, PyTorch)"
+            ],
+            "nice_to_have": [
+                "PhD in quantitative field",
+                "Published research or Kaggle competitions",
+                "Experience with production ML systems",
+                "Deep learning expertise"
+            ]
+        },
+        {
+            "level": 4,
+            "title": "Senior Data Scientist",
+            "years_experience": "6-10",
+            "salary_range": "$165,000-$220,000",
+            "key_responsibilities": [
+                "Lead high-impact ML projects",
+                "Define data science strategy for product areas",
+                "Build scalable ML systems in production",
+                "Influence product roadmap with data insights",
+                "Mentor data science team",
+                "Establish best practices for ML development"
+            ],
+            "required_skills": [
+                "Expert ML practitioner with production experience",
+                "Deep statistical and mathematical knowledge",
+                "Strong software engineering skills",
+                "Experience with MLOps and model deployment",
+                "Strategic thinking and business impact focus",
+                "Excellent technical communication"
+            ],
+            "promotion_criteria": "Drives measurable business value through ML, technical leadership, influences org direction"
+        },
+        {
+            "level": 5,
+            "title": "Staff / Principal Data Scientist",
+            "years_experience": "10+",
+            "salary_range": "$220,000-$320,000+",
+            "key_responsibilities": [
+                "Set data science strategy for organization",
+                "Solve most complex ML problems",
+                "Drive ML platform and infrastructure decisions",
+                "Represent data science in executive planning",
+                "Build data science culture and capabilities",
+                "Industry thought leadership and publications"
+            ],
+            "required_skills": [
+                "Recognized expert in ML/AI domain",
+                "Track record of building ML systems at scale",
+                "Research and innovation capabilities",
+                "Organizational influence and leadership",
+                "Executive-level communication"
+            ],
+            "promotion_criteria": "Company-wide impact, technical thought leadership, shapes organizational capabilities"
+        }
+    ],
+    "adjacent_roles": [
+        {
+            "role": "Data Engineer",
+            "transition_path": "From Data Analyst/Scientist with interest in data infrastructure and pipelines",
+            "key_differences": "Focus on building data systems vs analyzing data for insights"
+        },
+        {
+            "role": "ML Engineer",
+            "transition_path": "From Data Scientist with strong engineering skills",
+            "key_differences": "Focus on deploying and scaling ML systems vs research and modeling"
+        },
+        {
+            "role": "Analytics Engineer",
+            "transition_path": "From Senior Data Analyst with engineering mindset",
+            "key_differences": "Focus on data transformation and modeling vs end-user analysis"
+        },
+        {
+            "role": "Research Scientist",
+            "transition_path": "From PhD-level Data Scientist interested in fundamental research",
+            "key_differences": "Focus on advancing state-of-the-art vs applied business problems"
+        }
+    ],
+    "common_skills_across_levels": [
+        "Statistical thinking",
+        "Programming",
+        "Data manipulation",
+        "Problem-solving",
+        "Communication",
+        "Curiosity and learning"
+    ],
+    "skill_development_path": [
+        {
+            "stage": "Early Career (0-2 years)",
+            "focus_areas": [
+                "SQL mastery",
+                "Statistical foundations",
+                "Visualization",
+                "Business context",
+                "Python/R basics"
+            ]
+        },
+        {
+            "stage": "Mid Career (2-6 years)",
+            "focus_areas": [
+                "Machine learning",
+                "Experimental design",
+                "Advanced programming",
+                "Model deployment",
+                "Stakeholder management"
+            ]
+        },
+        {
+            "stage": "Senior Career (6-10 years)",
+            "focus_areas": [
+                "ML systems at scale",
+                "Strategic thinking",
+                "Technical leadership",
+                "Cross-functional influence",
+                "MLOps"
+            ]
+        },
+        {
+            "stage": "Staff+ (10+ years)",
+            "focus_areas": [
+                "Organizational strategy",
+                "Research and innovation",
+                "Team building",
+                "Industry leadership"
+            ]
+        }
+    ]
+}
