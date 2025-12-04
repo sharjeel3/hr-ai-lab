@@ -161,6 +161,29 @@ class LLMClient:
             raise
 
 
+    def generate(
+        self,
+        prompt: str,
+        system_prompt: Optional[str] = None,
+        temperature: float = 0.7,
+        max_tokens: int = 1000
+    ) -> str:
+        """
+        Generate text from LLM (simplified interface).
+        
+        Args:
+            prompt: User prompt
+            system_prompt: System prompt (optional)
+            temperature: Sampling temperature
+            max_tokens: Maximum tokens in response
+            
+        Returns:
+            Generated text response
+        """
+        result = self.call(prompt, system_prompt, temperature, max_tokens)
+        return result.get("response", "")
+
+
 def call_llm(
     prompt: str,
     model: str = "gpt-4",
@@ -182,6 +205,24 @@ def call_llm(
     client = LLMClient(provider=provider, model=model)
     result = client.call(prompt, **kwargs)
     return result.get("response", "")
+
+
+def load_json_data(path: str) -> Dict[str, Any]:
+    """
+    Load JSON data from a file.
+    
+    Args:
+        path: Path to JSON file
+        
+    Returns:
+        Dictionary with loaded data
+    """
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        logger.error(f"Failed to load JSON from {path}: {str(e)}")
+        return {}
 
 
 def load_dataset(path: str, file_type: str = "auto") -> List[Dict[str, Any]]:
@@ -313,6 +354,28 @@ def calculate_accuracy(predictions: List[Any], ground_truth: List[Any]) -> float
     
     correct = sum(1 for p, g in zip(predictions, ground_truth) if p == g)
     return correct / len(predictions)
+
+
+def calculate_metrics(data: List[Dict[str, Any]], metric_type: str = "basic") -> Dict[str, Any]:
+    """
+    Calculate various metrics from data.
+    
+    Args:
+        data: List of data items
+        metric_type: Type of metrics to calculate
+        
+    Returns:
+        Dictionary with calculated metrics
+    """
+    if not data:
+        return {"count": 0}
+    
+    metrics = {
+        "count": len(data),
+        "timestamp": timestamp()
+    }
+    
+    return metrics
 
 
 def timestamp() -> str:
