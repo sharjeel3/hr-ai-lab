@@ -49,7 +49,7 @@ results/*.json
 results/**/*.json
 results/*.csv
 results/**/*.csv
-results/dashboards/*
+results/dashboards/*.html
 !results/.gitkeep
 
 # Datasets - uncomment below to exclude from git
