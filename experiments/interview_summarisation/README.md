@@ -11,6 +11,34 @@ An AI-powered interview summarization system that processes interview transcript
 - **Evidence-Based Assessment**: Links ratings to specific examples from the transcript
 - **Candidate Ranking**: Ranks candidates based on overall performance scores
 - **Next-Step Recommendations**: Suggests follow-up actions and questions for subsequent rounds
+- **📊 Interactive Dashboard**: Beautiful visualizations and analytics for interview results
+
+## Quick Start
+
+```bash
+# Run interview summarization (auto-generates dashboard)
+python3 experiments/interview_summarisation/interview_summarizer.py
+
+# View the dashboard
+python3 experiments/interview_summarisation/view_dashboard.py
+
+# Or manually generate dashboard from existing results
+./experiments/interview_summarisation/generate_dashboard.sh
+```
+
+## Dashboard Features
+
+The interview summarization system automatically generates an interactive HTML dashboard with:
+
+- **Metrics Summary**: KPIs showing total interviews, average scores, and hiring recommendations
+- **Candidate Score Chart**: Visual comparison of candidate performance
+- **Recommendation Distribution**: Pie chart breakdown of hiring decisions
+- **Confidence Levels**: Assessment confidence visualization
+- **Interview Duration Analysis**: Timing patterns across interviews
+- **Competency Comparison**: Radar chart of technical vs behavioral skills
+- **Candidate Cards**: Detailed cards with scores, recommendations, and key highlights
+
+See [DASHBOARD_README.md](DASHBOARD_README.md) for full documentation.
 
 ## Usage
 
@@ -33,10 +61,10 @@ results = run_interview_summarization_experiment(
 source .venv/bin/activate
 
 # Run with default settings
-python experiments/interview_summarisation/interview_summarizer.py
+python3 experiments/interview_summarisation/interview_summarizer.py
 
 # Run with custom configuration
-python experiments/interview_summarisation/interview_summarizer.py \
+python3 experiments/interview_summarisation/interview_summarizer.py \
     --config custom_config.json \
     --output results/custom_interviews
 ```

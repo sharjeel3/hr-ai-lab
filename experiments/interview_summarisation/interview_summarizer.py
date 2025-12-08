@@ -32,8 +32,8 @@ class InterviewSummarizer:
         """
         self.config = config
         self.llm_client = LLMClient(
-            provider=config.get('llm_provider', 'openai'),
-            model=config.get('llm_model', 'gpt-4')
+            provider=config.get('llm_provider', 'google'),
+            model=config.get('llm_model', 'gemini-2.5-flash-lite')
         )
         self.competency_rubric = config.get('competency_rubric', self._default_rubric())
     
@@ -96,7 +96,9 @@ class InterviewSummarizer:
         transcript_text = self.parse_transcript(interview_data)
         
         prompt = f"""
-You are an expert technical interviewer and HR analyst. Analyze this interview transcript and evaluate the candidate's competencies.
+You are an expert technical interviewer and HR analyst conducting a RIGOROUS and DIFFERENTIATED evaluation. Your goal is to provide accurate, discriminating assessments that distinguish between candidates.
+
+IMPORTANT: Be critical and look for concrete evidence. Most candidates should score in the 60-75 range. Only exceptional candidates with clear evidence of excellence should score 85+.
 
 INTERVIEW METADATA:
 Candidate: {interview_data.get('candidate_name', 'Unknown')}
@@ -110,27 +112,47 @@ TRANSCRIPT:
 COMPETENCY RUBRIC:
 {json.dumps(self.competency_rubric, indent=2)}
 
+SCORING CALIBRATION GUIDE:
+Rating 1 (Poor): Significant gaps, unclear responses, lacks basic knowledge, red flags present
+Rating 2 (Below Average): Some gaps, vague answers, limited examples, hesitant communication
+Rating 3 (Average): Meets basic requirements, adequate examples, clear but not exceptional
+Rating 4 (Good): Strong performance, detailed examples, clear expertise, minor gaps only
+Rating 5 (Excellent): Outstanding, exceptional depth, multiple strong examples, expert-level
+
+RED FLAGS TO WATCH FOR:
+- Frequent filler words ("um", "uh", "like", "you know")
+- Vague or generic answers lacking specifics
+- Inability to provide concrete examples
+- Contradictory statements
+- Lack of ownership (always blaming others)
+- Poor communication structure
+- Defensive or negative attitude
+
 Please analyze and return a JSON object with:
 
 1. technical_competencies: For each technical skill in the rubric, provide:
    - skill_name: Name of the skill
-   - evidence: Specific examples from the interview demonstrating this skill
-   - rating: Score from 1-5 (1=Poor, 2=Below Average, 3=Average, 4=Good, 5=Excellent)
-   - notes: Brief evaluation notes
+   - evidence: Specific quotes or examples from the interview (or "None observed" if lacking)
+   - rating: Score from 1-5 based on calibration guide above
+   - notes: Critical evaluation including any weaknesses observed
 
-2. behavioral_competencies: Same structure as technical for behavioral skills
+2. behavioral_competencies: Same structure, noting communication quality and professionalism
 
-3. cultural_fit: Same structure for cultural fit indicators
+3. cultural_fit: Same structure, noting alignment with values and work style
 
-4. key_strengths: List of top 3-5 demonstrated strengths with examples
+4. key_strengths: List 2-4 demonstrated strengths with specific evidence
 
-5. areas_of_concern: List of any red flags or areas needing further evaluation
+5. areas_of_concern: List ALL red flags, weaknesses, or areas needing improvement
 
-6. technical_depth: Overall assessment of technical depth (1-5)
+6. technical_depth: Overall technical assessment (1-5, be critical)
 
-7. communication_quality: Assessment of communication clarity (1-5)
+7. communication_quality: Assessment considering clarity, structure, filler words (1-5)
 
-8. interview_performance: Overall interview performance (1-5)
+8. interview_performance: Overall performance accounting for ALL factors (1-5)
+
+9. response_quality_score: Average quality of responses (1-5, consider specificity and depth)
+
+10. confidence_indicators: Note signs of confidence vs hesitation
 
 Return only valid JSON.
 """
@@ -142,13 +164,44 @@ Return only valid JSON.
                 max_tokens=self.config.get('max_tokens', 2000)
             )
             
-            competencies = json.loads(response)
+            if not response or not response.strip():
+                logger.error("Empty response from LLM for competency extraction")
+                return {
+                    'interview_id': interview_data.get('interview_id'),
+                    'candidate_name': interview_data.get('candidate_name'),
+                    'error': 'Empty response from LLM'
+                }
+            
+            # Clean markdown code blocks if present
+            import re
+            cleaned_response = response.strip()
+            if cleaned_response.startswith('```'):
+                pattern = r'```(?:json)?\s*\n?(.*?)\n?```'
+                match = re.search(pattern, cleaned_response, re.DOTALL)
+                if match:
+                    cleaned_response = match.group(1).strip()
+            
+            # Log first 200 chars of cleaned response for debugging
+            logger.debug(f"Competency extraction response preview: {cleaned_response[:200]}...")
+            
+            competencies = json.loads(cleaned_response)
             competencies['interview_id'] = interview_data.get('interview_id')
             competencies['candidate_name'] = interview_data.get('candidate_name')
             
             return competencies
             
+        except json.JSONDecodeError as e:
+            logger.error(f"JSON decode error in competency extraction: {e}")
+            logger.error(f"Response was: {response[:500] if response else 'None'}")
+            return {
+                'interview_id': interview_data.get('interview_id'),
+                'candidate_name': interview_data.get('candidate_name'),
+                'error': f'Invalid JSON response: {str(e)}'
+            }
         except Exception as e:
+            error_msg = str(e)
+            if "quota" in error_msg.lower() or "429" in error_msg:
+                logger.error("⚠️  API quota exceeded. Cannot continue processing.")
             logger.error(f"Error extracting competencies: {e}")
             return {
                 'interview_id': interview_data.get('interview_id'),
@@ -174,7 +227,22 @@ Return only valid JSON.
         transcript_text = self.parse_transcript(interview_data)
         
         prompt = f"""
-You are an expert recruiter. Create a comprehensive interview summary report.
+You are an expert recruiter creating a RIGOROUS and DIFFERENTIATED assessment. Scores should reflect true performance differences between candidates.
+
+SCORING PHILOSOPHY:
+- Be honest and critical in your assessment
+- Look for concrete evidence and specific examples
+- Distinguish between strong, average, and weak candidates
+- Most candidates fall in 60-80 range; 85+ reserved for truly exceptional performance
+- Scores below 60 indicate significant concerns
+
+OVERALL SCORE CALIBRATION:
+90-100: Exceptional - No hesitation, immediate hire, exceeds all expectations
+80-89: Strong - Clear hire with minor reservations, exceeds most expectations  
+70-79: Good - Solid candidate, meets expectations with some strengths
+60-69: Adequate - Meets minimum bar but has notable gaps
+50-59: Below Bar - Significant concerns, likely not a fit
+<50: Poor - Clear rejection, fundamental issues
 
 INTERVIEW DETAILS:
 {json.dumps({
@@ -209,9 +277,30 @@ Please generate a comprehensive summary with:
 
 9. questions_for_next_round: If moving forward, 3-5 questions to explore in next interview
 
-10. overall_score: Composite score out of 100
+10. overall_score: Composite score out of 100 using this WEIGHTED FORMULA:
+    - Technical Competencies (from competency analysis): 35%
+    - Behavioral Competencies (from competency analysis): 25%
+    - Communication Quality: 20%
+    - Response Specificity & Depth: 15%
+    - Cultural Fit: 5%
+    
+    SCORING GUIDELINES:
+    - Account for red flags (filler words, vague answers, lack of examples) - deduct 5-15 points
+    - Reward specific, detailed examples with metrics - add 5-10 points
+    - Consider position level (junior vs senior) but maintain high standards
+    - Be discriminating: avoid clustering scores around 85-95
 
 11. confidence_level: Confidence in assessment ["High", "Medium", "Low"]
+    - High: Strong evidence, consistent performance, clear signals
+    - Medium: Some ambiguity, mixed signals, or limited evidence
+    - Low: Significant uncertainty, contradictory signals, or very brief interview
+
+12. score_breakdown: Show component scores used in overall_score calculation:
+    - technical_score (out of 100)
+    - behavioral_score (out of 100)
+    - communication_score (out of 100)
+    - response_quality_score (out of 100)
+    - cultural_fit_score (out of 100)
 
 Return only valid JSON.
 """
@@ -219,17 +308,26 @@ Return only valid JSON.
         try:
             response = self.llm_client.generate(
                 prompt=prompt,
-                temperature=self.config.get('temperature', 0.5),
-                max_tokens=self.config.get('max_tokens', 2500)
+                temperature=self.config.get('temperature', 0.3),  # Lower temperature for more consistent scoring
+                max_tokens=self.config.get('max_tokens', 3000)  # Increased for detailed breakdown
             )
             
-            summary = json.loads(response)
+            # Clean markdown code blocks if present
+            import re
+            cleaned_response = response.strip()
+            if cleaned_response.startswith('```'):
+                pattern = r'```(?:json)?\s*\n?(.*?)\n?```'
+                match = re.search(pattern, cleaned_response, re.DOTALL)
+                if match:
+                    cleaned_response = match.group(1).strip()
+            
+            summary = json.loads(cleaned_response)
             summary['interview_id'] = interview_data.get('interview_id')
             summary['candidate_id'] = interview_data.get('candidate_id')
             summary['candidate_name'] = interview_data.get('candidate_name')
             summary['position'] = interview_data.get('position')
             summary['interview_date'] = interview_data.get('date')
-            summary['summarized_at'] = datetime.utcnow().isoformat()
+            summary['summarized_at'] = datetime.now().isoformat()
             
             return summary
             
@@ -240,6 +338,60 @@ Return only valid JSON.
                 'candidate_name': interview_data.get('candidate_name'),
                 'error': str(e)
             }
+    
+    def validate_and_adjust_score(self, summary: Dict[str, Any], competencies: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Validate scoring and adjust if needed based on evidence and red flags.
+        
+        Args:
+            summary: Generated summary with scores
+            competencies: Competency analysis
+            
+        Returns:
+            Summary with validated/adjusted scores
+        """
+        score = summary.get('overall_score', 0)
+        recommendation = summary.get('recommendation', '')
+        
+        # Check for score-recommendation misalignment
+        if score >= 85 and recommendation not in ['Strong Hire', 'Hire']:
+            logger.warning(f"Score-recommendation mismatch: score={score}, rec={recommendation}")
+            summary['overall_score'] = 75  # Adjust down
+            
+        if score < 65 and recommendation in ['Strong Hire', 'Hire']:
+            logger.warning(f"Score-recommendation mismatch: score={score}, rec={recommendation}")
+            summary['recommendation'] = 'Maybe'
+            
+        # Check for areas_of_concern vs high scores
+        concerns = competencies.get('areas_of_concern', [])
+        if len(concerns) >= 3 and score >= 85:
+            logger.warning(f"High score ({score}) but {len(concerns)} areas of concern")
+            summary['overall_score'] = min(score, 78)
+            
+        # Validate score breakdown if present
+        breakdown = summary.get('score_breakdown', {})
+        if breakdown:
+            # Recalculate weighted score
+            weights = {
+                'technical_score': 0.35,
+                'behavioral_score': 0.25,
+                'communication_score': 0.20,
+                'response_quality_score': 0.15,
+                'cultural_fit_score': 0.05
+            }
+            
+            calculated_score = sum(
+                breakdown.get(key, 70) * weight 
+                for key, weight in weights.items()
+            )
+            
+            # If stated score differs significantly from calculation, log warning
+            if abs(calculated_score - score) > 10:
+                logger.warning(f"Score mismatch: stated={score}, calculated={calculated_score:.1f}")
+                summary['overall_score'] = round(calculated_score)
+                summary['score_adjusted'] = True
+        
+        return summary
     
     def summarize_interview(self, interview_data: Dict[str, Any]) -> Dict[str, Any]:
         """
@@ -259,6 +411,9 @@ Return only valid JSON.
         # Step 2: Generate structured summary
         summary = self.generate_summary(interview_data, competencies)
         
+        # Step 3: Validate and adjust scoring
+        summary = self.validate_and_adjust_score(summary, competencies)
+        
         # Combine results
         full_summary = {
             'interview_metadata': {
@@ -273,7 +428,7 @@ Return only valid JSON.
             },
             'competency_analysis': competencies,
             'summary': summary,
-            'processed_at': datetime.utcnow().isoformat()
+            'processed_at': datetime.now().isoformat()
         }
         
         return full_summary
@@ -373,13 +528,21 @@ def run_interview_summarization_experiment(
     
     # Load configuration
     config = load_json_data(config_path)
+    default_config = config.get('default_experiment_config', {})
     interview_config = config.get('experiments', {}).get('interview_summarisation', {})
     
-    # Initialize summarizer
-    summarizer = InterviewSummarizer(interview_config)
+    # Merge default config with interview-specific config
+    merged_config = {**default_config, **interview_config}
     
-    # Load interviews
-    interviews = load_interviews(interview_config.get('dataset', 'datasets/interview_transcripts'))
+    # Initialize summarizer
+    summarizer = InterviewSummarizer(merged_config)
+    
+    # Load interviews - use merged config for dataset path
+    dataset_path = merged_config.get('dataset', 'datasets/interview_transcripts')
+    # Ensure full path if only directory name is provided
+    if not dataset_path.startswith('datasets/'):
+        dataset_path = f'datasets/{dataset_path}'
+    interviews = load_interviews(dataset_path)
     
     # Summarize all interviews
     summaries = summarizer.summarize_multiple(interviews)
@@ -409,7 +572,7 @@ def run_interview_summarization_experiment(
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
     
-    timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     
     save_results(
         summaries,
@@ -428,6 +591,22 @@ def run_interview_summarization_experiment(
     
     logger.info(f"Interview Summarization Experiment completed. Results saved to {output_dir}")
     logger.info(f"Metrics: {json.dumps(metrics, indent=2)}")
+    
+    # Generate dashboard
+    try:
+        import sys
+        sys.path.append(str(Path(__file__).parent.parent.parent / "results" / "dashboards"))
+        from interview_summarization_dashboard import generate_dashboard
+        
+        dashboard_path = generate_dashboard(
+            summaries_path=str(output_path / f"interview_summaries_{timestamp}.json"),
+            metrics_path=str(output_path / f"summarization_metrics_{timestamp}.json"),
+            rankings_path=str(output_path / f"candidate_rankings_{timestamp}.json"),
+            output_path=str(Path("results") / "dashboards" / f"interview_dashboard_{timestamp}.html")
+        )
+        logger.info(f"Dashboard generated: {dashboard_path}")
+    except Exception as e:
+        logger.warning(f"Could not generate dashboard: {e}")
     
     return {
         'summaries': summaries,

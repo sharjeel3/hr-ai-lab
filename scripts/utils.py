@@ -1,5 +1,4 @@
-"""
-Core utilities for HR AI Lab experiments.
+"""                                                                                                                       Core utilities for HR AI Lab experiments.
 
 This module provides:
 - LLM integration functions
@@ -15,6 +14,14 @@ from pathlib import Path
 from typing import Dict, List, Any, Optional
 from datetime import datetime
 import logging
+
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    # dotenv not installed, will use system environment variables only
+    pass
 
 # Configure logging
 logging.basicConfig(
@@ -179,10 +186,20 @@ class LLMClient:
             logger.error("Google Generative AI package not installed. Run: pip install google-generativeai")
             raise
         except Exception as e:
-            logger.error(f"Google Gemini API call failed: {str(e)}")
-            logger.error(f"Error type: {type(e).__name__}")
+            error_msg = str(e)
+            if "429" in error_msg or "quota" in error_msg.lower() or "ResourceExhausted" in str(type(e).__name__):
+                logger.error("⚠️  Google API Quota Exceeded!")
+                logger.error("You've hit the rate limit for Gemini API.")
+                logger.error("Solutions:")
+                logger.error("  1. Wait for the quota to reset (check error message for retry time)")
+                logger.error("  2. Upgrade to a paid tier at https://ai.google.dev/")
+                logger.error("  3. Switch to a different model with higher limits")
+                logger.error(f"Error details: {error_msg[:500]}")
+            else:
+                logger.error(f"Google Gemini API call failed: {error_msg}")
+                logger.error(f"Error type: {type(e).__name__}")
             import traceback
-            logger.error(f"Traceback: {traceback.format_exc()}")
+            logger.debug(f"Traceback: {traceback.format_exc()}")
             raise
     
     def _clean_json_response(self, text: str) -> str:
@@ -291,11 +308,16 @@ class LLMClient:
         result = self.call(prompt, system_prompt, temperature, max_tokens)
         response_text = result.get("response", "")
         
+        # Check for errors in result
+        if result.get("error"):
+            logger.error(f"LLM generate error: {result.get('error')}")
+            return ""
+        
         # Clean JSON responses (remove markdown code blocks)
         if response_text and self.provider == "google":
             response_text = self._clean_json_response(response_text)
         
-        return response_text
+        return response_text if response_text else ""
 
 
 def call_llm(
