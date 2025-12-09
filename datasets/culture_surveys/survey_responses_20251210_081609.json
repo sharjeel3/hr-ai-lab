@@ -1,0 +1,4202 @@
+[
+  {
+    "response_id": "R0001",
+    "timestamp": "2025-12-02T08:16:09.573479",
+    "department": "Marketing",
+    "tenure_years": 11.962045979415738,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 5.4,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 8.0,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.3,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.4,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.7,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 7.7,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.9,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.3,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Great team culture and supportive leadership."
+  },
+  {
+    "response_id": "R0002",
+    "timestamp": "2025-12-02T08:16:09.573500",
+    "department": "Marketing",
+    "tenure_years": 13.446394560403702,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 9.0,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.2,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 7.0,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.8,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.7,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 7.2,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 8.1,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 5.6,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Getting better but still a work in progress."
+  },
+  {
+    "response_id": "R0003",
+    "timestamp": "2025-12-08T08:16:09.573509",
+    "department": "Operations",
+    "tenure_years": 10.972587673197115,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 5.3,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.1,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.0,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.1,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.4,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.0,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 8.7,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.6,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Some good aspects, but room for improvement."
+  },
+  {
+    "response_id": "R0004",
+    "timestamp": "2025-11-30T08:16:09.573517",
+    "department": "Operations",
+    "tenure_years": 12.56118123977408,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 8.0,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.5,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.2,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.8,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 8.3,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 7.7,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.2,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 4.1,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Too much bureaucracy slows down innovation."
+  },
+  {
+    "response_id": "R0005",
+    "timestamp": "2025-11-16T08:16:09.573526",
+    "department": "Sales",
+    "tenure_years": 7.459073702294672,
+    "role_level": "Director",
+    "ratings": {
+      "collaboration": {
+        "score": 5.7,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 8.9,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.8,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.5,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.5,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 5.3,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.4,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 5.6,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "I feel valued and have opportunities to grow."
+  },
+  {
+    "response_id": "R0006",
+    "timestamp": "2025-11-10T08:16:09.573533",
+    "department": "HR",
+    "tenure_years": 7.873822951841162,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 4.5,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.9,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.4,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.1,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.8,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.0,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 8.8,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.7,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Depends on which team you're on."
+  },
+  {
+    "response_id": "R0007",
+    "timestamp": "2025-11-14T08:16:09.573537",
+    "department": "HR",
+    "tenure_years": 10.603419647023903,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 4.8,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.0,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.9,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.2,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.8,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 5.2,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 6.5,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.4,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Too much bureaucracy slows down innovation."
+  },
+  {
+    "response_id": "R0008",
+    "timestamp": "2025-11-15T08:16:09.573543",
+    "department": "Sales",
+    "tenure_years": 5.501693511578107,
+    "role_level": "Executive",
+    "ratings": {
+      "collaboration": {
+        "score": 6.2,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.6,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 6.5,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.2,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 5.3,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.1,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 6.9,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.6,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Some good aspects, but room for improvement."
+  },
+  {
+    "response_id": "R0009",
+    "timestamp": "2025-11-22T08:16:09.573547",
+    "department": "Marketing",
+    "tenure_years": 14.32915505156131,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 5.2,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.1,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 7.1,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.1,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 5.4,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.2,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 6.0,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.1,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Work-life balance is challenging."
+  },
+  {
+    "response_id": "R0010",
+    "timestamp": "2025-12-09T08:16:09.573552",
+    "department": "Marketing",
+    "tenure_years": 12.646800371920039,
+    "role_level": "Director",
+    "ratings": {
+      "collaboration": {
+        "score": 6.2,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.8,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 6.9,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.1,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 8.4,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 4.6,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 5.6,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 4.2,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "I feel valued and have opportunities to grow."
+  },
+  {
+    "response_id": "R0011",
+    "timestamp": "2025-11-22T08:16:09.573556",
+    "department": "Engineering",
+    "tenure_years": 12.081610190718072,
+    "role_level": "Executive",
+    "ratings": {
+      "collaboration": {
+        "score": 9.0,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.5,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 7.9,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.4,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.0,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.1,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.2,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 4.3,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Too much bureaucracy slows down innovation."
+  },
+  {
+    "response_id": "R0012",
+    "timestamp": "2025-12-06T08:16:09.573560",
+    "department": "Finance",
+    "tenure_years": 9.911491098700996,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 7.2,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.0,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.5,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.5,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.0,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 7.2,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 5.6,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 5.0,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Getting better but still a work in progress."
+  },
+  {
+    "response_id": "R0013",
+    "timestamp": "2025-11-24T08:16:09.573565",
+    "department": "HR",
+    "tenure_years": 7.304870409614809,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 7.0,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.4,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.3,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.0,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.5,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 4.0,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.9,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 5.7,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Depends on which team you're on."
+  },
+  {
+    "response_id": "R0014",
+    "timestamp": "2025-11-11T08:16:09.573570",
+    "department": "Operations",
+    "tenure_years": 12.642750069132772,
+    "role_level": "Executive",
+    "ratings": {
+      "collaboration": {
+        "score": 4.7,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.6,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 6.2,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.5,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.3,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.6,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.4,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.5,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Communication from leadership could be better."
+  },
+  {
+    "response_id": "R0015",
+    "timestamp": "2025-11-24T08:16:09.573575",
+    "department": "HR",
+    "tenure_years": 4.309846863178066,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 8.5,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.3,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.1,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.2,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.2,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.0,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.6,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Some good aspects, but room for improvement."
+  },
+  {
+    "response_id": "R0016",
+    "timestamp": "2025-11-29T08:16:09.573580",
+    "department": "Sales",
+    "tenure_years": 5.905609197032525,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 6.6,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.5,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.6,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.0,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 5.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 4.2,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.0,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.5,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Work-life balance is respected."
+  },
+  {
+    "response_id": "R0017",
+    "timestamp": "2025-11-10T08:16:09.573586",
+    "department": "Sales",
+    "tenure_years": 7.7585083692614125,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 7.1,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.1,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.5,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.4,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.3,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.1,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 5.5,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.1,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Too much bureaucracy slows down innovation."
+  },
+  {
+    "response_id": "R0018",
+    "timestamp": "2025-11-28T08:16:09.573591",
+    "department": "Operations",
+    "tenure_years": 9.69065228186787,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 8.7,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 8.1,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 5.2,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.6,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.7,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 7.5,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 6.4,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.2,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Innovation is truly encouraged here."
+  },
+  {
+    "response_id": "R0019",
+    "timestamp": "2025-11-20T08:16:09.573596",
+    "department": "HR",
+    "tenure_years": 9.574769655408517,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 5.4,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.2,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.9,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.6,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 4.1,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.8,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.2,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Depends on which team you're on."
+  },
+  {
+    "response_id": "R0020",
+    "timestamp": "2025-11-21T08:16:09.573602",
+    "department": "Engineering",
+    "tenure_years": 12.540870166312834,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 7.2,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.9,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.2,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.0,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.2,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 5.1,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 8.6,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.0,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Work-life balance is challenging."
+  },
+  {
+    "response_id": "R0021",
+    "timestamp": "2025-11-30T08:16:09.573607",
+    "department": "HR",
+    "tenure_years": 14.287036826645124,
+    "role_level": "Director",
+    "ratings": {
+      "collaboration": {
+        "score": 7.3,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.7,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.3,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.9,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 8.5,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 5.0,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.1,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.6,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Communication from leadership could be better."
+  },
+  {
+    "response_id": "R0022",
+    "timestamp": "2025-11-17T08:16:09.573612",
+    "department": "Marketing",
+    "tenure_years": 10.343292910199706,
+    "role_level": "Executive",
+    "ratings": {
+      "collaboration": {
+        "score": 6.1,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.8,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.0,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.7,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 9.0,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 5.0,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.4,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Communication from leadership could be better."
+  },
+  {
+    "response_id": "R0023",
+    "timestamp": "2025-12-10T08:16:09.573617",
+    "department": "Operations",
+    "tenure_years": 1.8597340903281927,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 7.6,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.3,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.6,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.5,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 4.2,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 9.0,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 8.1,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.8,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Work-life balance is challenging."
+  },
+  {
+    "response_id": "R0024",
+    "timestamp": "2025-11-15T08:16:09.573623",
+    "department": "Sales",
+    "tenure_years": 9.267841115324762,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 8.2,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.3,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 5.7,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.4,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 5.6,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 8.4,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.7,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Work-life balance is challenging."
+  },
+  {
+    "response_id": "R0025",
+    "timestamp": "2025-11-26T08:16:09.573628",
+    "department": "HR",
+    "tenure_years": 3.7190534280883822,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 7.4,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.0,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.3,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.6,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 4.9,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.6,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.2,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 5.6,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Some good aspects, but room for improvement."
+  },
+  {
+    "response_id": "R0026",
+    "timestamp": "2025-11-16T08:16:09.573632",
+    "department": "Operations",
+    "tenure_years": 11.482221734258118,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 6.5,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.0,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 7.1,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.3,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.0,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 7.4,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 8.3,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.3,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Too much bureaucracy slows down innovation."
+  },
+  {
+    "response_id": "R0027",
+    "timestamp": "2025-11-20T08:16:09.573636",
+    "department": "Finance",
+    "tenure_years": 3.444221045953031,
+    "role_level": "Director",
+    "ratings": {
+      "collaboration": {
+        "score": 7.2,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.6,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.5,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.0,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.3,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.6,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.7,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 5.6,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Some good aspects, but room for improvement."
+  },
+  {
+    "response_id": "R0028",
+    "timestamp": "2025-11-14T08:16:09.573641",
+    "department": "Operations",
+    "tenure_years": 9.14435187452814,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 4.3,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.1,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 5.2,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.1,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.3,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 7.1,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.5,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.6,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Innovation is truly encouraged here."
+  },
+  {
+    "response_id": "R0029",
+    "timestamp": "2025-11-12T08:16:09.573646",
+    "department": "Engineering",
+    "tenure_years": 12.364077249839367,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 8.5,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.0,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 6.0,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.1,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 8.9,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 5.2,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.2,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.3,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "I feel valued and have opportunities to grow."
+  },
+  {
+    "response_id": "R0030",
+    "timestamp": "2025-11-27T08:16:09.573650",
+    "department": "Engineering",
+    "tenure_years": 5.174823376726954,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 8.5,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.3,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.5,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.4,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.8,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.4,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 5.5,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Some good aspects, but room for improvement."
+  },
+  {
+    "response_id": "R0031",
+    "timestamp": "2025-11-20T08:16:09.573654",
+    "department": "HR",
+    "tenure_years": 7.752179988539814,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 4.4,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.1,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 5.0,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.9,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 5.1,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.2,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.2,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.5,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "I feel valued and have opportunities to grow."
+  },
+  {
+    "response_id": "R0032",
+    "timestamp": "2025-12-07T08:16:09.573659",
+    "department": "Sales",
+    "tenure_years": 9.657831686263627,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 8.3,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.5,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.2,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 4.7,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.9,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 4.9,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.4,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.4,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Great team culture and supportive leadership."
+  },
+  {
+    "response_id": "R0033",
+    "timestamp": "2025-12-06T08:16:09.573663",
+    "department": "Marketing",
+    "tenure_years": 5.199473292194898,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 4.0,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.2,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 7.1,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 4.3,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 4.2,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.2,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 5.0,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 5.4,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Some good aspects, but room for improvement."
+  },
+  {
+    "response_id": "R0034",
+    "timestamp": "2025-11-15T08:16:09.573667",
+    "department": "Marketing",
+    "tenure_years": 13.222449945276429,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 5.0,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.8,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.2,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.5,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 5.4,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.8,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.2,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.6,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "I feel valued and have opportunities to grow."
+  },
+  {
+    "response_id": "R0035",
+    "timestamp": "2025-12-03T08:16:09.573671",
+    "department": "HR",
+    "tenure_years": 1.2660925399162957,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 6.6,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.7,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 7.9,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.7,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 8.5,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 4.6,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 5.4,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.3,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Some good aspects, but room for improvement."
+  },
+  {
+    "response_id": "R0036",
+    "timestamp": "2025-11-12T08:16:09.573675",
+    "department": "Engineering",
+    "tenure_years": 6.225744665164467,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 7.9,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.1,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 6.6,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.5,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.8,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.7,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 9.0,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "I feel valued and have opportunities to grow."
+  },
+  {
+    "response_id": "R0037",
+    "timestamp": "2025-12-09T08:16:09.573679",
+    "department": "Sales",
+    "tenure_years": 3.2812192845220305,
+    "role_level": "Director",
+    "ratings": {
+      "collaboration": {
+        "score": 8.0,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 8.1,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 5.6,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.8,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 7.2,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.0,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.9,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Work-life balance is respected."
+  },
+  {
+    "response_id": "R0038",
+    "timestamp": "2025-12-06T08:16:09.573711",
+    "department": "Finance",
+    "tenure_years": 1.2174295821113124,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 6.2,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.2,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.2,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.4,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 8.8,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 4.8,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 8.5,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 4.4,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Getting better but still a work in progress."
+  },
+  {
+    "response_id": "R0039",
+    "timestamp": "2025-12-08T08:16:09.573717",
+    "department": "HR",
+    "tenure_years": 9.145165818245953,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 7.7,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.3,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 5.9,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 4.4,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.1,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 4.6,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.8,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.8,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Depends on which team you're on."
+  },
+  {
+    "response_id": "R0040",
+    "timestamp": "2025-12-03T08:16:09.573723",
+    "department": "Sales",
+    "tenure_years": 4.805489705992362,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 7.2,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.9,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 7.4,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.5,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.1,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.0,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 6.4,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 4.0,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Work-life balance is challenging."
+  },
+  {
+    "response_id": "R0041",
+    "timestamp": "2025-11-23T08:16:09.573727",
+    "department": "Sales",
+    "tenure_years": 8.442191636481077,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 9.0,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.6,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.6,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.2,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.0,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.3,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 5.6,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.7,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Work-life balance is respected."
+  },
+  {
+    "response_id": "R0042",
+    "timestamp": "2025-11-15T08:16:09.573732",
+    "department": "Finance",
+    "tenure_years": 5.536056145676324,
+    "role_level": "Director",
+    "ratings": {
+      "collaboration": {
+        "score": 7.8,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.5,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 6.2,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.4,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.7,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 5.1,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.1,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.6,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Communication from leadership could be better."
+  },
+  {
+    "response_id": "R0043",
+    "timestamp": "2025-12-03T08:16:09.573737",
+    "department": "Marketing",
+    "tenure_years": 2.259350965889511,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 5.4,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.5,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 6.4,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.0,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.8,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 9.0,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.5,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 9.0,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Work-life balance is respected."
+  },
+  {
+    "response_id": "R0044",
+    "timestamp": "2025-11-21T08:16:09.573742",
+    "department": "HR",
+    "tenure_years": 9.32101779346679,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 4.2,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.4,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.7,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.2,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 9.0,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 5.6,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 6.5,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.6,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Getting better but still a work in progress."
+  },
+  {
+    "response_id": "R0045",
+    "timestamp": "2025-12-05T08:16:09.573746",
+    "department": "HR",
+    "tenure_years": 2.5692733060852264,
+    "role_level": "Executive",
+    "ratings": {
+      "collaboration": {
+        "score": 5.7,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.6,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 5.5,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.4,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 4.3,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 5.0,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.7,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 5.2,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Depends on which team you're on."
+  },
+  {
+    "response_id": "R0046",
+    "timestamp": "2025-11-28T08:16:09.573751",
+    "department": "HR",
+    "tenure_years": 7.6150455141046125,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 8.9,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.7,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.2,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.2,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 8.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.5,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.9,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.7,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Getting better but still a work in progress."
+  },
+  {
+    "response_id": "R0047",
+    "timestamp": "2025-11-13T08:16:09.573755",
+    "department": "Operations",
+    "tenure_years": 5.587666691819543,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 5.9,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.8,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.4,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.6,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.9,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 9.0,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.9,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.8,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Limited opportunities for career advancement."
+  },
+  {
+    "response_id": "R0048",
+    "timestamp": "2025-11-28T08:16:09.573760",
+    "department": "Operations",
+    "tenure_years": 5.38686516584261,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 8.8,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.4,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.2,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.8,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 4.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 5.6,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 6.6,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.1,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "I feel valued and have opportunities to grow."
+  },
+  {
+    "response_id": "R0049",
+    "timestamp": "2025-11-24T08:16:09.573764",
+    "department": "Operations",
+    "tenure_years": 11.973851248011613,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 4.5,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 8.5,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 6.6,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.2,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 4.0,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 4.5,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 6.7,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.8,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Too much bureaucracy slows down innovation."
+  },
+  {
+    "response_id": "R0050",
+    "timestamp": "2025-12-09T08:16:09.573769",
+    "department": "Marketing",
+    "tenure_years": 6.173152248859183,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 7.9,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 8.6,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 7.9,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.8,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 5.9,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 4.3,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.8,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.1,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Getting better but still a work in progress."
+  },
+  {
+    "response_id": "R0051",
+    "timestamp": "2025-12-04T08:16:09.573773",
+    "department": "Finance",
+    "tenure_years": 12.654852697520148,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 6.1,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.9,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 7.9,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 4.0,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.1,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.1,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.2,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.4,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "I feel valued and have opportunities to grow."
+  },
+  {
+    "response_id": "R0052",
+    "timestamp": "2025-11-13T08:16:09.573778",
+    "department": "HR",
+    "tenure_years": 13.892636721822031,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 5.4,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.7,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.1,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.3,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 8.1,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 5.1,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 8.8,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.9,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Some good aspects, but room for improvement."
+  },
+  {
+    "response_id": "R0053",
+    "timestamp": "2025-11-15T08:16:09.573783",
+    "department": "Marketing",
+    "tenure_years": 8.594051681870527,
+    "role_level": "Executive",
+    "ratings": {
+      "collaboration": {
+        "score": 7.3,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 8.3,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.6,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.7,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.1,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.1,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 6.9,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.5,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Innovation is truly encouraged here."
+  },
+  {
+    "response_id": "R0054",
+    "timestamp": "2025-11-10T08:16:09.573787",
+    "department": "Sales",
+    "tenure_years": 6.90296263153075,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 5.9,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.7,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.4,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.2,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.7,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 7.1,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.3,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.9,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Too much bureaucracy slows down innovation."
+  },
+  {
+    "response_id": "R0055",
+    "timestamp": "2025-11-29T08:16:09.573793",
+    "department": "Operations",
+    "tenure_years": 5.871292899586143,
+    "role_level": "Director",
+    "ratings": {
+      "collaboration": {
+        "score": 6.1,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.3,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.8,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.9,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 4.3,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 5.8,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 6.9,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 4.4,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "I feel valued and have opportunities to grow."
+  },
+  {
+    "response_id": "R0056",
+    "timestamp": "2025-11-22T08:16:09.573798",
+    "department": "Sales",
+    "tenure_years": 11.898230381090997,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 8.0,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.9,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 5.6,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 4.8,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.1,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.8,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 8.1,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 4.6,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Work-life balance is challenging."
+  },
+  {
+    "response_id": "R0057",
+    "timestamp": "2025-11-23T08:16:09.573802",
+    "department": "Marketing",
+    "tenure_years": 14.061222328371962,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 6.1,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.9,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 5.0,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.5,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 5.4,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.1,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.4,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.1,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Communication from leadership could be better."
+  },
+  {
+    "response_id": "R0058",
+    "timestamp": "2025-11-13T08:16:09.573806",
+    "department": "Engineering",
+    "tenure_years": 1.213065679729377,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 8.5,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.4,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.6,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 4.3,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.1,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.6,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.4,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.5,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "I feel valued and have opportunities to grow."
+  },
+  {
+    "response_id": "R0059",
+    "timestamp": "2025-11-19T08:16:09.573810",
+    "department": "Marketing",
+    "tenure_years": 5.675016511139169,
+    "role_level": "Executive",
+    "ratings": {
+      "collaboration": {
+        "score": 5.5,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.7,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 7.1,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.4,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 5.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 7.6,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.0,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.1,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Limited opportunities for career advancement."
+  },
+  {
+    "response_id": "R0060",
+    "timestamp": "2025-11-20T08:16:09.573814",
+    "department": "Engineering",
+    "tenure_years": 8.49111107123333,
+    "role_level": "Executive",
+    "ratings": {
+      "collaboration": {
+        "score": 8.0,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 8.5,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.9,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.1,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.5,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 5.5,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.9,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.5,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Communication from leadership could be better."
+  },
+  {
+    "response_id": "R0061",
+    "timestamp": "2025-11-18T08:16:09.573818",
+    "department": "Sales",
+    "tenure_years": 1.953101336591763,
+    "role_level": "Director",
+    "ratings": {
+      "collaboration": {
+        "score": 7.2,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.9,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 5.7,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.3,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 4.5,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 7.2,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.2,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 5.4,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Innovation is truly encouraged here."
+  },
+  {
+    "response_id": "R0062",
+    "timestamp": "2025-11-19T08:16:09.573823",
+    "department": "HR",
+    "tenure_years": 10.22300163969734,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 7.1,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.8,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 6.4,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.3,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.9,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 4.6,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 8.6,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.6,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Communication from leadership could be better."
+  },
+  {
+    "response_id": "R0063",
+    "timestamp": "2025-11-24T08:16:09.573827",
+    "department": "Finance",
+    "tenure_years": 12.436082939337862,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 5.4,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.2,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.5,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.3,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.4,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.9,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 6.5,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 5.6,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "I feel valued and have opportunities to grow."
+  },
+  {
+    "response_id": "R0064",
+    "timestamp": "2025-11-24T08:16:09.573832",
+    "department": "Operations",
+    "tenure_years": 4.076043223547242,
+    "role_level": "Director",
+    "ratings": {
+      "collaboration": {
+        "score": 8.0,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.5,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 5.5,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.3,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.9,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 5.1,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 5.8,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.7,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Some good aspects, but room for improvement."
+  },
+  {
+    "response_id": "R0065",
+    "timestamp": "2025-11-21T08:16:09.573836",
+    "department": "Marketing",
+    "tenure_years": 7.851577886901762,
+    "role_level": "Executive",
+    "ratings": {
+      "collaboration": {
+        "score": 8.6,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.0,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.6,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.9,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 5.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 9.0,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.0,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.3,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Communication from leadership could be better."
+  },
+  {
+    "response_id": "R0066",
+    "timestamp": "2025-11-11T08:16:09.573840",
+    "department": "Marketing",
+    "tenure_years": 3.17050150180357,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 4.4,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.9,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 7.7,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 4.7,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.7,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 6.2,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.5,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Depends on which team you're on."
+  },
+  {
+    "response_id": "R0067",
+    "timestamp": "2025-11-18T08:16:09.573845",
+    "department": "Operations",
+    "tenure_years": 7.007341010160102,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 5.6,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.7,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 7.5,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 4.0,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.3,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.3,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 5.6,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.1,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Depends on which team you're on."
+  },
+  {
+    "response_id": "R0068",
+    "timestamp": "2025-12-10T08:16:09.573849",
+    "department": "Engineering",
+    "tenure_years": 5.984039615857145,
+    "role_level": "Director",
+    "ratings": {
+      "collaboration": {
+        "score": 4.1,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.4,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 7.8,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.8,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.0,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.0,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.7,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 4.3,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Innovation is truly encouraged here."
+  },
+  {
+    "response_id": "R0069",
+    "timestamp": "2025-11-11T08:16:09.573853",
+    "department": "HR",
+    "tenure_years": 10.493251642877992,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 5.6,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.9,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 5.9,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 4.9,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 8.1,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.3,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.2,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.8,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Communication from leadership could be better."
+  },
+  {
+    "response_id": "R0070",
+    "timestamp": "2025-11-14T08:16:09.573857",
+    "department": "Engineering",
+    "tenure_years": 8.154898028567047,
+    "role_level": "Executive",
+    "ratings": {
+      "collaboration": {
+        "score": 5.4,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.4,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 7.7,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.4,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 9.0,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.7,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 5.9,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.2,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "I feel valued and have opportunities to grow."
+  },
+  {
+    "response_id": "R0071",
+    "timestamp": "2025-11-10T08:16:09.573862",
+    "department": "HR",
+    "tenure_years": 10.209269525579167,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 7.9,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.6,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 5.4,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.7,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.8,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 5.6,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.0,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Innovation is truly encouraged here."
+  },
+  {
+    "response_id": "R0072",
+    "timestamp": "2025-11-11T08:16:09.573867",
+    "department": "Operations",
+    "tenure_years": 2.979964558826884,
+    "role_level": "Executive",
+    "ratings": {
+      "collaboration": {
+        "score": 6.5,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.7,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.8,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.5,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 4.8,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.3,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.2,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.3,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Getting better but still a work in progress."
+  },
+  {
+    "response_id": "R0073",
+    "timestamp": "2025-11-17T08:16:09.573871",
+    "department": "Sales",
+    "tenure_years": 6.333076567312376,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 4.2,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.7,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 5.5,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.5,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.1,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 7.0,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 6.0,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.2,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Depends on which team you're on."
+  },
+  {
+    "response_id": "R0074",
+    "timestamp": "2025-12-04T08:16:09.573875",
+    "department": "Marketing",
+    "tenure_years": 13.659826855165283,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 4.5,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.3,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 6.5,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.9,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.2,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.7,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 8.2,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.2,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Work-life balance is challenging."
+  },
+  {
+    "response_id": "R0075",
+    "timestamp": "2025-11-16T08:16:09.573879",
+    "department": "Operations",
+    "tenure_years": 6.672973816903259,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 7.4,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 8.9,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.8,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.0,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.1,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.6,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.1,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.8,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Too much bureaucracy slows down innovation."
+  },
+  {
+    "response_id": "R0076",
+    "timestamp": "2025-11-12T08:16:09.573883",
+    "department": "Engineering",
+    "tenure_years": 8.140239990330567,
+    "role_level": "Director",
+    "ratings": {
+      "collaboration": {
+        "score": 4.6,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.1,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 6.0,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.8,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 8.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.5,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 5.3,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.7,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Innovation is truly encouraged here."
+  },
+  {
+    "response_id": "R0077",
+    "timestamp": "2025-12-01T08:16:09.573887",
+    "department": "Marketing",
+    "tenure_years": 12.13888040821239,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 8.3,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.2,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 5.8,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.5,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 4.2,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 7.6,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.4,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.1,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Work-life balance is respected."
+  },
+  {
+    "response_id": "R0078",
+    "timestamp": "2025-11-11T08:16:09.573892",
+    "department": "Operations",
+    "tenure_years": 12.338378196159004,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 5.7,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.9,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.8,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.0,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.8,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 4.8,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 5.8,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.1,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Too much bureaucracy slows down innovation."
+  },
+  {
+    "response_id": "R0079",
+    "timestamp": "2025-11-24T08:16:09.573896",
+    "department": "Marketing",
+    "tenure_years": 4.317022825722692,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 4.4,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.9,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.0,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.7,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 4.5,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.0,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.5,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.9,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Some good aspects, but room for improvement."
+  },
+  {
+    "response_id": "R0080",
+    "timestamp": "2025-11-16T08:16:09.573901",
+    "department": "Marketing",
+    "tenure_years": 2.1588739581862115,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 7.1,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 8.6,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.2,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.8,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.3,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 4.8,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 5.2,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.0,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "I feel valued and have opportunities to grow."
+  },
+  {
+    "response_id": "R0081",
+    "timestamp": "2025-11-15T08:16:09.573905",
+    "department": "Marketing",
+    "tenure_years": 14.237849615828521,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 7.1,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.5,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 5.3,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.6,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 5.0,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.0,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.0,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.0,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Some good aspects, but room for improvement."
+  },
+  {
+    "response_id": "R0082",
+    "timestamp": "2025-11-18T08:16:09.573909",
+    "department": "Finance",
+    "tenure_years": 7.520912216199133,
+    "role_level": "Director",
+    "ratings": {
+      "collaboration": {
+        "score": 8.0,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.3,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.0,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.3,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.9,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 5.7,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 6.1,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.9,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "I feel valued and have opportunities to grow."
+  },
+  {
+    "response_id": "R0083",
+    "timestamp": "2025-11-25T08:16:09.573914",
+    "department": "Sales",
+    "tenure_years": 7.40900743802022,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 5.9,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.1,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 5.5,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.1,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.4,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.9,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 8.3,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.8,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Too much bureaucracy slows down innovation."
+  },
+  {
+    "response_id": "R0084",
+    "timestamp": "2025-11-21T08:16:09.573918",
+    "department": "Finance",
+    "tenure_years": 2.9393465496214692,
+    "role_level": "Executive",
+    "ratings": {
+      "collaboration": {
+        "score": 6.4,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.6,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.4,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.3,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 8.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.1,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.2,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.8,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Communication from leadership could be better."
+  },
+  {
+    "response_id": "R0085",
+    "timestamp": "2025-11-11T08:16:09.573922",
+    "department": "Operations",
+    "tenure_years": 12.364992851371653,
+    "role_level": "Director",
+    "ratings": {
+      "collaboration": {
+        "score": 5.5,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.3,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 7.6,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 9.0,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.7,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 4.3,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.0,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.8,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Limited opportunities for career advancement."
+  },
+  {
+    "response_id": "R0086",
+    "timestamp": "2025-11-19T08:16:09.573926",
+    "department": "Marketing",
+    "tenure_years": 13.371061734907808,
+    "role_level": "Executive",
+    "ratings": {
+      "collaboration": {
+        "score": 6.4,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.6,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 7.0,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.2,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 5.8,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 7.4,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.1,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 9.0,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Depends on which team you're on."
+  },
+  {
+    "response_id": "R0087",
+    "timestamp": "2025-12-03T08:16:09.573931",
+    "department": "Finance",
+    "tenure_years": 13.375224782578858,
+    "role_level": "Executive",
+    "ratings": {
+      "collaboration": {
+        "score": 9.0,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.0,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.0,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.7,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 5.7,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 5.5,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 6.8,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.3,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Innovation is truly encouraged here."
+  },
+  {
+    "response_id": "R0088",
+    "timestamp": "2025-12-01T08:16:09.573935",
+    "department": "Engineering",
+    "tenure_years": 0.5324146058905994,
+    "role_level": "Director",
+    "ratings": {
+      "collaboration": {
+        "score": 8.6,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.3,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 6.0,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.5,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 5.9,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.4,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 5.4,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Some good aspects, but room for improvement."
+  },
+  {
+    "response_id": "R0089",
+    "timestamp": "2025-11-21T08:16:09.573939",
+    "department": "HR",
+    "tenure_years": 0.6904766523075518,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 7.4,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.3,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 7.8,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.9,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.9,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.5,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 6.1,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 4.6,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Depends on which team you're on."
+  },
+  {
+    "response_id": "R0090",
+    "timestamp": "2025-11-29T08:16:09.573943",
+    "department": "Operations",
+    "tenure_years": 6.613707907062639,
+    "role_level": "Executive",
+    "ratings": {
+      "collaboration": {
+        "score": 5.3,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.7,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 7.9,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 4.9,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 8.0,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.9,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.8,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 4.0,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Communication from leadership could be better."
+  },
+  {
+    "response_id": "R0091",
+    "timestamp": "2025-11-19T08:16:09.573948",
+    "department": "Marketing",
+    "tenure_years": 2.712764480771199,
+    "role_level": "Executive",
+    "ratings": {
+      "collaboration": {
+        "score": 6.8,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.4,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.1,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.7,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 4.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.6,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 4.9,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.9,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Some good aspects, but room for improvement."
+  },
+  {
+    "response_id": "R0092",
+    "timestamp": "2025-12-07T08:16:09.573952",
+    "department": "Marketing",
+    "tenure_years": 14.422494544300887,
+    "role_level": "Executive",
+    "ratings": {
+      "collaboration": {
+        "score": 6.5,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 6.9,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.2,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.2,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 4.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.1,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 8.2,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.6,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Limited opportunities for career advancement."
+  },
+  {
+    "response_id": "R0093",
+    "timestamp": "2025-12-04T08:16:09.573956",
+    "department": "HR",
+    "tenure_years": 2.492974591877251,
+    "role_level": "Director",
+    "ratings": {
+      "collaboration": {
+        "score": 8.7,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 8.4,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 5.5,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 7.5,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.3,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 5.6,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 6.9,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.3,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "I feel valued and have opportunities to grow."
+  },
+  {
+    "response_id": "R0094",
+    "timestamp": "2025-11-15T08:16:09.573960",
+    "department": "Engineering",
+    "tenure_years": 11.978757971191541,
+    "role_level": "Senior Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 4.6,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.9,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.5,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.7,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 8.4,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 4.8,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.4,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 5.2,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Communication from leadership could be better."
+  },
+  {
+    "response_id": "R0095",
+    "timestamp": "2025-11-19T08:16:09.573964",
+    "department": "Sales",
+    "tenure_years": 11.794295184679356,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 4.3,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.4,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 6.7,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 6.4,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 4.8,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.5,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.5,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.3,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Great team culture and supportive leadership."
+  },
+  {
+    "response_id": "R0096",
+    "timestamp": "2025-11-18T08:16:09.573968",
+    "department": "Engineering",
+    "tenure_years": 7.249980442940841,
+    "role_level": "Director",
+    "ratings": {
+      "collaboration": {
+        "score": 8.7,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 8.9,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 8.3,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.4,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 4.3,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 8.1,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.0,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 7.1,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "I feel valued and have opportunities to grow."
+  },
+  {
+    "response_id": "R0097",
+    "timestamp": "2025-11-23T08:16:09.573972",
+    "department": "HR",
+    "tenure_years": 13.258842190196797,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 4.8,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 5.5,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.3,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 8.7,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 8.9,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 4.6,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.5,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 6.9,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "I feel valued and have opportunities to grow."
+  },
+  {
+    "response_id": "R0098",
+    "timestamp": "2025-11-25T08:16:09.573976",
+    "department": "Marketing",
+    "tenure_years": 6.478993037996737,
+    "role_level": "Executive",
+    "ratings": {
+      "collaboration": {
+        "score": 4.4,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 7.3,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.8,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.7,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 6.6,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 7.2,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 5.4,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 8.4,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Too much bureaucracy slows down innovation."
+  },
+  {
+    "response_id": "R0099",
+    "timestamp": "2025-12-10T08:16:09.573980",
+    "department": "Operations",
+    "tenure_years": 6.345502339548222,
+    "role_level": "Manager",
+    "ratings": {
+      "collaboration": {
+        "score": 5.6,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.1,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 6.5,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 4.6,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 5.8,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 4.4,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 7.2,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 5.6,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Innovation is truly encouraged here."
+  },
+  {
+    "response_id": "R0100",
+    "timestamp": "2025-11-28T08:16:09.573984",
+    "department": "Sales",
+    "tenure_years": 11.923796042102879,
+    "role_level": "Individual Contributor",
+    "ratings": {
+      "collaboration": {
+        "score": 6.5,
+        "question": "How well do teams collaborate across departments?"
+      },
+      "innovation": {
+        "score": 4.8,
+        "question": "Does the organization encourage new ideas and innovation?"
+      },
+      "accountability": {
+        "score": 4.7,
+        "question": "Are people held accountable for their commitments?"
+      },
+      "transparency": {
+        "score": 5.7,
+        "question": "How transparent is leadership communication?"
+      },
+      "work_life_balance": {
+        "score": 7.3,
+        "question": "Does the company support work-life balance?"
+      },
+      "leadership": {
+        "score": 6.9,
+        "question": "Do you trust and respect leadership?"
+      },
+      "diversity_inclusion": {
+        "score": 5.3,
+        "question": "Does the company value diversity and inclusion?"
+      },
+      "learning_development": {
+        "score": 5.3,
+        "question": "Are there opportunities for growth and learning?"
+      }
+    },
+    "open_ended": "Getting better but still a work in progress."
+  }
+]
