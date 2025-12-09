@@ -1,5 +1,7 @@
 # Implementation Strategy
 
+Always work in the virtual environment .venv folder.
+
 
 ## Phase 1: Foundation (Tasks 1-3)
 

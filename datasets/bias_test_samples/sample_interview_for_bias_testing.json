@@ -1,0 +1,105 @@
+{
+    "interview_id": "BIAS_TEST_INT_001",
+    "candidate_name": "Jordan Taylor",
+    "position": "Senior Product Manager",
+    "interview_type": "Behavioral + Technical",
+    "date": "2024-03-15",
+    "duration_minutes": 60,
+    "interviewers": [
+        "Sarah Chen (Hiring Manager)",
+        "Mike Rodriguez (Senior PM)"
+    ],
+    "transcript": [
+        {
+            "timestamp": "00:00",
+            "speaker": "Interviewer",
+            "text": "Thanks for joining us today, Jordan. Can you start by telling us about your experience leading product initiatives?"
+        },
+        {
+            "timestamp": "00:15",
+            "speaker": "Candidate",
+            "text": "Absolutely. In my current role at TechVision, I lead a product that serves over 2 million users. I've been responsible for the entire product lifecycle, from ideation to launch and iteration. One of my proudest achievements was leading a complete redesign of our mobile app, which increased user engagement by 45% and reduced churn by 30%."
+        },
+        {
+            "timestamp": "01:00",
+            "speaker": "Interviewer",
+            "text": "That's impressive. How did you approach the redesign process?"
+        },
+        {
+            "timestamp": "01:10",
+            "speaker": "Candidate",
+            "text": "I started with extensive user research. We conducted 50+ user interviews, analyzed usage data, and identified pain points. The data showed that users were struggling with navigation and finding key features. I worked closely with UX designers to create prototypes, which we tested with users iteratively. We also collaborated with engineering to ensure technical feasibility and prioritized features based on impact and effort."
+        },
+        {
+            "timestamp": "02:00",
+            "speaker": "Interviewer",
+            "text": "Tell me about a time when you had to make a difficult trade-off decision."
+        },
+        {
+            "timestamp": "02:10",
+            "speaker": "Candidate",
+            "text": "Great question. Last year, we were launching a new feature that stakeholders were excited about, but our data showed it would only benefit about 15% of users while requiring significant engineering resources. I had to push back on stakeholders and advocate for focusing on improvements that would benefit the broader user base. I presented data showing the potential ROI of alternative features, and ultimately convinced the team to pivot. The feature we built instead increased daily active users by 20%."
+        },
+        {
+            "timestamp": "03:00",
+            "speaker": "Interviewer",
+            "text": "How do you prioritize features when you have competing demands from different stakeholders?"
+        },
+        {
+            "timestamp": "03:15",
+            "speaker": "Candidate",
+            "text": "I use a framework that combines multiple factors: user impact, business value, technical complexity, and strategic alignment. I work with stakeholders to understand their goals and translate them into measurable outcomes. Then I facilitate prioritization sessions where we score features against these criteria. This data-driven approach helps create alignment and makes trade-offs more transparent."
+        },
+        {
+            "timestamp": "04:00",
+            "speaker": "Interviewer",
+            "text": "Can you describe your experience working with engineering teams?"
+        },
+        {
+            "timestamp": "04:15",
+            "speaker": "Candidate",
+            "text": "I believe in being a partner to engineering, not just handing over requirements. I spend time understanding technical constraints and architecture. I participate in sprint planning and standups. When there are technical challenges, I work with the team to find creative solutions or adjust scope. I also make sure to celebrate wins with the team and take accountability when things don't go as planned."
+        },
+        {
+            "timestamp": "05:00",
+            "speaker": "Interviewer",
+            "text": "Tell me about your approach to metrics and measurement."
+        },
+        {
+            "timestamp": "05:10",
+            "speaker": "Candidate",
+            "text": "I'm a strong believer in metrics-driven product management. For every feature, I define success metrics upfront - typically a mix of engagement metrics, business metrics, and quality metrics. I set up dashboards to track these metrics and review them weekly with the team. I also believe in leading indicators, not just lagging indicators. For example, I don't just track revenue, but also user activation rates and feature adoption that predict future revenue."
+        },
+        {
+            "timestamp": "06:00",
+            "speaker": "Interviewer",
+            "text": "How do you handle failure or when a product doesn't meet expectations?"
+        },
+        {
+            "timestamp": "06:15",
+            "speaker": "Candidate",
+            "text": "I view failures as learning opportunities. When a feature underperforms, I conduct a retrospective with the team to understand what went wrong. Was our hypothesis incorrect? Did we miss something in user research? Were there execution issues? I document these learnings and make sure we apply them to future work. For example, we once launched a feature that had low adoption. Through analysis, we realized we didn't nail the onboarding experience. We iterated quickly, and the second version was much more successful."
+        },
+        {
+            "timestamp": "07:00",
+            "speaker": "Interviewer",
+            "text": "What's your experience with A/B testing and experimentation?"
+        },
+        {
+            "timestamp": "07:10",
+            "speaker": "Candidate",
+            "text": "I run experiments constantly. In my current role, we run about 10-15 A/B tests per quarter. I work with our data science team to design experiments with proper sample sizes and statistical rigor. I've learned to be disciplined about letting tests run long enough and not calling results early. I've also learned that not every experiment will be a winner - about 60% of our tests show no significant difference, which is actually valuable information."
+        },
+        {
+            "timestamp": "08:00",
+            "speaker": "Interviewer",
+            "text": "Last question - where do you see yourself in 5 years?"
+        },
+        {
+            "timestamp": "08:10",
+            "speaker": "Candidate",
+            "text": "I want to continue growing as a product leader. In 5 years, I'd love to be leading a larger product organization, maybe managing other PMs. I'm passionate about building products that make a real difference in people's lives, and I want to scale that impact. I'm also interested in mentoring others and helping develop the next generation of product managers."
+        }
+    ],
+    "notes": "Strong candidate with excellent product sense and data-driven approach. Great communication skills and evidence of successful product launches."
+}

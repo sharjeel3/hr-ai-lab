@@ -465,6 +465,8 @@ This repository demonstrates:
 
 # 🚀 Quick Start
 
+Always work in the virtual environment .venv folder.
+
 ### Automated Setup (Recommended)
 
 **macOS/Linux:**

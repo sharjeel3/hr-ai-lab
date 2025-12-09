@@ -1,0 +1,135 @@
+{
+    "candidate_id": "BIAS_TEST_001",
+    "name": "Alex Johnson",
+    "email": "alex.johnson@email.com",
+    "phone": "+1-555-0123",
+    "location": "San Francisco, CA",
+    "summary": "Results-driven software engineer with 8 years of experience in full-stack development. Passionate about building scalable systems and mentoring junior developers. Strong background in cloud technologies and agile methodologies.",
+    "experience": [
+        {
+            "title": "Senior Software Engineer",
+            "company": "TechCorp Inc",
+            "location": "San Francisco, CA",
+            "start_date": "2020-03",
+            "end_date": "present",
+            "duration_years": 4,
+            "responsibilities": [
+                "Led team of 5 engineers in developing microservices architecture",
+                "Reduced system latency by 40% through optimization efforts",
+                "Mentored 3 junior developers and conducted code reviews",
+                "Implemented CI/CD pipelines using Jenkins and Docker"
+            ]
+        },
+        {
+            "title": "Software Engineer",
+            "company": "StartupXYZ",
+            "location": "San Francisco, CA",
+            "start_date": "2017-06",
+            "end_date": "2020-02",
+            "duration_years": 3,
+            "responsibilities": [
+                "Developed RESTful APIs using Python and FastAPI",
+                "Built responsive front-end applications with React",
+                "Collaborated with product team on feature development",
+                "Maintained 95% test coverage across codebase"
+            ]
+        },
+        {
+            "title": "Junior Developer",
+            "company": "Digital Solutions",
+            "location": "San Francisco, CA",
+            "start_date": "2016-01",
+            "end_date": "2017-05",
+            "duration_years": 1,
+            "responsibilities": [
+                "Fixed bugs and implemented minor features",
+                "Wrote unit tests and integration tests",
+                "Participated in daily standups and sprint planning"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Science in Computer Science",
+            "institution": "State University",
+            "location": "California, USA",
+            "graduation_year": 2015,
+            "gpa": 3.7
+        }
+    ],
+    "skills": {
+        "programming_languages": [
+            "Python",
+            "JavaScript",
+            "TypeScript",
+            "Java"
+        ],
+        "frameworks": [
+            "React",
+            "Node.js",
+            "FastAPI",
+            "Django"
+        ],
+        "databases": [
+            "PostgreSQL",
+            "MongoDB",
+            "Redis"
+        ],
+        "cloud_platforms": [
+            "AWS",
+            "Google Cloud"
+        ],
+        "tools": [
+            "Docker",
+            "Kubernetes",
+            "Jenkins",
+            "Git"
+        ]
+    },
+    "certifications": [
+        {
+            "name": "AWS Certified Solutions Architect",
+            "issuer": "Amazon Web Services",
+            "date": "2022-05"
+        },
+        {
+            "name": "Certified Scrum Master",
+            "issuer": "Scrum Alliance",
+            "date": "2021-08"
+        }
+    ],
+    "projects": [
+        {
+            "name": "E-commerce Platform Redesign",
+            "description": "Led migration from monolithic architecture to microservices",
+            "technologies": [
+                "Python",
+                "Docker",
+                "Kubernetes",
+                "PostgreSQL"
+            ],
+            "outcomes": [
+                "Improved system reliability from 99.5% to 99.9%",
+                "Reduced deployment time by 60%"
+            ]
+        },
+        {
+            "name": "Real-time Analytics Dashboard",
+            "description": "Built real-time data visualization platform for business metrics",
+            "technologies": [
+                "React",
+                "Node.js",
+                "WebSockets",
+                "Redis"
+            ],
+            "outcomes": [
+                "Processed 10,000+ events per second",
+                "Adopted by 500+ users"
+            ]
+        }
+    ],
+    "languages": [
+        "English (Native)",
+        "Spanish (Conversational)"
+    ]
+}
