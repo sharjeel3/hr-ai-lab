@@ -47,6 +47,7 @@ ENV/
 # Results and data
 results/*.json
 results/**/*.json
+results/**/*.txt
 results/*.csv
 results/**/*.csv
 results/dashboards/*.html

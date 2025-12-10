@@ -1,10 +1,85 @@
-# CV Screening Results Dashboards
+# HR AI Lab - Results Dashboards & Visualization
 
-This directory contains visualization and reporting tools for CV screening results.
+This directory contains comprehensive visualization and reporting tools for all HR AI Lab experiments.
 
-## Available Dashboards
+## 🎯 Overview
 
-### 1. Interactive Dashboard (Streamlit)
+The dashboard system provides multiple ways to view and analyze experiment results:
+- **Unified HTML Dashboard**: Self-contained, no-dependency HTML reports
+- **Interactive Streamlit App**: Real-time, interactive analysis
+- **Experiment-Specific Dashboards**: Detailed views for individual experiments
+
+## 📊 Available Dashboards
+
+### 1. Unified HTML Dashboard ⭐ **NEW**
+**File:** `generate_unified_dashboard.py`
+
+A comprehensive, self-contained HTML dashboard that displays results from all experiments in one unified view.
+
+**Features:**
+- 📊 Overview metrics for all experiments
+- 🔍 Data quality analysis with interactive charts
+- ⚖️ Bias testing status
+- 📄 CV screening results
+- 📈 Interactive Chart.js visualizations
+- 🎨 Beautiful, responsive design
+- 📦 Self-contained (works offline)
+
+**Run:**
+```bash
+python results/dashboards/generate_unified_dashboard.py
+```
+
+**Output:**
+- HTML file: `unified_dashboard_YYYYMMDD_HHMMSS.html`
+- Opens in any web browser
+- No dependencies required to view
+
+**What it shows:**
+- Experiment completion status
+- Data quality scores and issue breakdown
+- Bias testing reports count
+- CV screening status
+- Interactive charts for data quality issues
+- Recommendations and summaries
+
+---
+
+### 2. Interactive Streamlit Dashboard ⭐ **NEW**
+**File:** `unified_streamlit_dashboard.py`
+
+A real-time, interactive web application for deep-dive analysis of all experiments.
+
+**Features:**
+- 🔄 Real-time data refresh
+- 📊 Multiple visualization pages
+- 🎯 Interactive filters and controls
+- 📈 Plotly interactive charts
+- 🎨 Beautiful, modern UI
+- 🔍 Drill-down capabilities
+
+**Run:**
+```bash
+streamlit run results/dashboards/unified_streamlit_dashboard.py
+```
+
+**Pages:**
+1. **Overview**: High-level metrics and experiment status
+2. **Data Quality**: Detailed HRIS data quality analysis
+3. **Bias Testing**: Fairness and bias testing results
+4. **CV Screening**: Candidate screening results
+5. **Interviews**: Interview summarization results
+6. **Culture**: Culture transformation insights
+7. **Comparisons**: Cross-experiment comparative analysis
+
+**Requirements:**
+```bash
+pip install streamlit plotly pandas
+```
+
+---
+
+### 3. CV Screening Dashboard
 **File:** `cv_screening_dashboard.py`
 
 An interactive, real-time dashboard with:
