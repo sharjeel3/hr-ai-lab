@@ -1,0 +1,434 @@
+[
+    {
+        "employee_id": "EMP001",
+        "name": "Alex Johnson",
+        "current_title": "Software Engineer",
+        "department": "Engineering",
+        "years_experience": 4,
+        "years_at_company": 2,
+        "skills": [
+            "Python",
+            "JavaScript",
+            "React",
+            "Node.js",
+            "PostgreSQL",
+            "Docker",
+            "Git",
+            "REST APIs",
+            "System Design",
+            "Agile Development",
+            "Unit Testing",
+            "Code Review"
+        ],
+        "education_level": "Bachelor of Science in Computer Science",
+        "certifications": [
+            "AWS Certified Developer - Associate",
+            "Scrum Master Certified"
+        ],
+        "career_interests": [
+            "Technical Leadership",
+            "System Architecture",
+            "Team Mentoring",
+            "Cloud Infrastructure"
+        ],
+        "strengths": [
+            "Problem Solving",
+            "Technical Communication",
+            "Cross-team Collaboration",
+            "Quick Learner",
+            "Attention to Detail"
+        ],
+        "career_goals": "I want to grow into a technical leadership role where I can influence architectural decisions and mentor junior engineers while staying hands-on with code.",
+        "performance_rating": "Exceeds Expectations"
+    },
+    {
+        "employee_id": "EMP002",
+        "name": "Maria Rodriguez",
+        "current_title": "Senior Software Engineer",
+        "department": "Engineering",
+        "years_experience": 7,
+        "years_at_company": 4,
+        "skills": [
+            "Java",
+            "Python",
+            "Kubernetes",
+            "Microservices",
+            "AWS",
+            "Terraform",
+            "CI/CD",
+            "System Architecture",
+            "Team Leadership",
+            "Technical Mentoring",
+            "Performance Optimization",
+            "Distributed Systems",
+            "API Design"
+        ],
+        "education_level": "Master of Science in Computer Science",
+        "certifications": [
+            "AWS Solutions Architect - Professional",
+            "Certified Kubernetes Administrator (CKA)",
+            "Google Cloud Professional Architect"
+        ],
+        "career_interests": [
+            "Engineering Management",
+            "Technical Strategy",
+            "Organization Building",
+            "Cross-functional Leadership"
+        ],
+        "strengths": [
+            "Technical Leadership",
+            "Strategic Thinking",
+            "Stakeholder Management",
+            "Conflict Resolution",
+            "Project Planning"
+        ],
+        "career_goals": "Ready to transition into engineering management to build high-performing teams and contribute to organizational strategy while maintaining technical credibility.",
+        "performance_rating": "Outstanding"
+    },
+    {
+        "employee_id": "EMP003",
+        "name": "David Chen",
+        "current_title": "Junior Data Analyst",
+        "department": "Data & Analytics",
+        "years_experience": 1.5,
+        "years_at_company": 1.5,
+        "skills": [
+            "Python",
+            "SQL",
+            "Pandas",
+            "NumPy",
+            "Matplotlib",
+            "Seaborn",
+            "Excel",
+            "Tableau",
+            "Statistics",
+            "Data Visualization",
+            "A/B Testing",
+            "Data Cleaning"
+        ],
+        "education_level": "Bachelor of Science in Statistics",
+        "certifications": [
+            "Google Data Analytics Professional Certificate",
+            "Tableau Desktop Specialist"
+        ],
+        "career_interests": [
+            "Machine Learning",
+            "Data Science",
+            "Advanced Analytics",
+            "Predictive Modeling"
+        ],
+        "strengths": [
+            "Analytical Thinking",
+            "Attention to Detail",
+            "Quick Learner",
+            "Data Storytelling",
+            "Curiosity"
+        ],
+        "career_goals": "I want to develop machine learning skills and transition into a data science role where I can build predictive models and drive business impact.",
+        "performance_rating": "Meets Expectations"
+    },
+    {
+        "employee_id": "EMP004",
+        "name": "Sarah Kim",
+        "current_title": "Product Manager",
+        "department": "Product",
+        "years_experience": 5,
+        "years_at_company": 3,
+        "skills": [
+            "Product Strategy",
+            "User Research",
+            "Roadmap Planning",
+            "Agile/Scrum",
+            "Stakeholder Management",
+            "Data Analysis",
+            "A/B Testing",
+            "SQL",
+            "Jira",
+            "Figma",
+            "Customer Interviews",
+            "Market Analysis",
+            "Competitive Intelligence"
+        ],
+        "education_level": "MBA - Strategy & Marketing",
+        "certifications": [
+            "Certified Scrum Product Owner (CSPO)",
+            "Pragmatic Marketing Certified",
+            "Product Management Certificate - General Assembly"
+        ],
+        "career_interests": [
+            "Senior Product Leadership",
+            "Product Strategy",
+            "Team Management",
+            "Go-to-Market Strategy"
+        ],
+        "strengths": [
+            "Strategic Vision",
+            "Cross-functional Leadership",
+            "User Empathy",
+            "Data-Driven Decision Making",
+            "Communication"
+        ],
+        "career_goals": "Seeking to advance to Senior Product Manager or Group PM role to lead larger product initiatives and coach junior PMs.",
+        "performance_rating": "Exceeds Expectations"
+    },
+    {
+        "employee_id": "EMP005",
+        "name": "James Patterson",
+        "current_title": "DevOps Engineer",
+        "department": "Engineering",
+        "years_experience": 6,
+        "years_at_company": 2,
+        "skills": [
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "AWS",
+            "Azure",
+            "Jenkins",
+            "GitLab CI/CD",
+            "Ansible",
+            "Prometheus",
+            "Grafana",
+            "Python",
+            "Bash",
+            "Infrastructure as Code",
+            "Site Reliability Engineering"
+        ],
+        "education_level": "Bachelor of Science in Information Technology",
+        "certifications": [
+            "AWS DevOps Engineer - Professional",
+            "Certified Kubernetes Administrator (CKA)",
+            "HashiCorp Terraform Associate"
+        ],
+        "career_interests": [
+            "Platform Engineering",
+            "Cloud Architecture",
+            "SRE Leadership",
+            "Developer Experience"
+        ],
+        "strengths": [
+            "Automation",
+            "System Reliability",
+            "Problem Solving",
+            "Documentation",
+            "Incident Management"
+        ],
+        "career_goals": "Looking to specialize in platform engineering and build internal developer platforms that improve engineering productivity.",
+        "performance_rating": "Exceeds Expectations"
+    },
+    {
+        "employee_id": "EMP006",
+        "name": "Jennifer Wu",
+        "current_title": "Data Scientist",
+        "department": "Data & Analytics",
+        "years_experience": 3.5,
+        "years_at_company": 2,
+        "skills": [
+            "Python",
+            "R",
+            "Machine Learning",
+            "TensorFlow",
+            "PyTorch",
+            "SQL",
+            "Spark",
+            "Feature Engineering",
+            "Model Deployment",
+            "Statistics",
+            "A/B Testing",
+            "Deep Learning",
+            "NLP",
+            "Computer Vision"
+        ],
+        "education_level": "Master of Science in Data Science",
+        "certifications": [
+            "TensorFlow Developer Certificate",
+            "AWS Machine Learning Specialty"
+        ],
+        "career_interests": [
+            "Senior Data Science",
+            "ML Engineering",
+            "Research",
+            "AI/ML Leadership"
+        ],
+        "strengths": [
+            "Mathematical Modeling",
+            "Experimental Design",
+            "Technical Writing",
+            "Collaboration",
+            "Innovation"
+        ],
+        "career_goals": "Want to advance to senior data scientist and eventually lead ML research initiatives that create significant business value.",
+        "performance_rating": "Outstanding"
+    },
+    {
+        "employee_id": "EMP007",
+        "name": "Michael Torres",
+        "current_title": "HR Business Partner",
+        "department": "People & Culture",
+        "years_experience": 8,
+        "years_at_company": 5,
+        "skills": [
+            "Employee Relations",
+            "Performance Management",
+            "Organizational Development",
+            "Change Management",
+            "Compensation & Benefits",
+            "Talent Management",
+            "Coaching & Mentoring",
+            "HR Analytics",
+            "Workday HRIS",
+            "Employment Law",
+            "Diversity & Inclusion",
+            "Succession Planning"
+        ],
+        "education_level": "Master of Business Administration (MBA)",
+        "certifications": [
+            "SHRM-SCP (Senior Certified Professional)",
+            "Certified Compensation Professional (CCP)"
+        ],
+        "career_interests": [
+            "HR Leadership",
+            "People Strategy",
+            "Organizational Design",
+            "Executive Coaching"
+        ],
+        "strengths": [
+            "Relationship Building",
+            "Strategic Thinking",
+            "Conflict Resolution",
+            "Business Acumen",
+            "Emotional Intelligence"
+        ],
+        "career_goals": "Aspiring to become Director of People Operations or VP of HR to shape organizational culture and people strategy at scale.",
+        "performance_rating": "Exceeds Expectations"
+    },
+    {
+        "employee_id": "EMP008",
+        "name": "Priya Sharma",
+        "current_title": "Solutions Architect",
+        "department": "Customer Success",
+        "years_experience": 9,
+        "years_at_company": 3,
+        "skills": [
+            "Cloud Architecture",
+            "AWS",
+            "Azure",
+            "System Design",
+            "Technical Pre-sales",
+            "Customer Engagement",
+            "Solution Design",
+            "Proof of Concept",
+            "Technical Writing",
+            "Presentation Skills",
+            "Enterprise Integration",
+            "Security Architecture",
+            "Cost Optimization"
+        ],
+        "education_level": "Master of Science in Computer Engineering",
+        "certifications": [
+            "AWS Solutions Architect - Professional",
+            "Azure Solutions Architect Expert",
+            "TOGAF 9 Certified"
+        ],
+        "career_interests": [
+            "Enterprise Architecture",
+            "Technical Leadership",
+            "Customer Success Leadership",
+            "Technology Strategy"
+        ],
+        "strengths": [
+            "Client Relationship Management",
+            "Technical Depth",
+            "Communication",
+            "Problem Solving",
+            "Business Alignment"
+        ],
+        "career_goals": "Ready to move into Principal Solutions Architect or Enterprise Architect role with broader strategic impact across customer portfolio.",
+        "performance_rating": "Outstanding"
+    },
+    {
+        "employee_id": "EMP009",
+        "name": "Lisa Anderson",
+        "current_title": "Marketing Manager",
+        "department": "Marketing",
+        "years_experience": 6,
+        "years_at_company": 4,
+        "skills": [
+            "Digital Marketing",
+            "Content Strategy",
+            "SEO/SEM",
+            "Marketing Analytics",
+            "Campaign Management",
+            "Social Media Marketing",
+            "Email Marketing",
+            "Marketing Automation",
+            "HubSpot",
+            "Google Analytics",
+            "A/B Testing",
+            "Budget Management",
+            "Team Leadership"
+        ],
+        "education_level": "Bachelor of Arts in Marketing",
+        "certifications": [
+            "Google Analytics Certified",
+            "HubSpot Inbound Marketing Certification",
+            "Facebook Blueprint Certified"
+        ],
+        "career_interests": [
+            "Senior Marketing Leadership",
+            "Growth Marketing",
+            "Marketing Operations",
+            "Brand Strategy"
+        ],
+        "strengths": [
+            "Creative Thinking",
+            "Data-Driven",
+            "Project Management",
+            "Cross-functional Collaboration",
+            "Adaptability"
+        ],
+        "career_goals": "Looking to advance to Senior Marketing Manager or Director level to lead integrated marketing programs and build high-performing teams.",
+        "performance_rating": "Exceeds Expectations"
+    },
+    {
+        "employee_id": "EMP010",
+        "name": "Robert Jackson",
+        "current_title": "Software Engineer",
+        "department": "Engineering",
+        "years_experience": 2,
+        "years_at_company": 2,
+        "skills": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "Node.js",
+            "GraphQL",
+            "MongoDB",
+            "Git",
+            "Jest",
+            "Frontend Development",
+            "Responsive Design",
+            "Web Performance",
+            "Accessibility"
+        ],
+        "education_level": "Bachelor of Science in Computer Science",
+        "certifications": [
+            "React Developer Certification"
+        ],
+        "career_interests": [
+            "Frontend Architecture",
+            "UI/UX Engineering",
+            "Developer Tools",
+            "Technical Writing"
+        ],
+        "strengths": [
+            "User-Centric Design",
+            "Code Quality",
+            "Learning Agility",
+            "Collaboration",
+            "Time Management"
+        ],
+        "career_goals": "Want to specialize in frontend engineering and eventually become a frontend architect or technical lead for UI engineering teams.",
+        "performance_rating": "Meets Expectations"
+    }
+]

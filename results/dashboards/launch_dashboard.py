@@ -27,7 +27,9 @@ def print_menu():
     print("  3. Open Latest HTML Dashboard")
     print("  4. Generate HTML & Open")
     print("  5. Launch CV Screening Dashboard")
-    print("  6. Exit")
+    print("  6. Launch Career Pathway Dashboard")
+    print("  7. Generate Career Pathway HTML Report")
+    print("  8. Exit")
     print()
 
 
@@ -101,6 +103,48 @@ def launch_cv_screening():
         print("\n✓ Dashboard stopped")
 
 
+def launch_career_pathway():
+    """Launch Career Pathway dashboard."""
+    print("\n🚀 Launching Career Pathway dashboard...")
+    script_path = Path(__file__).parent / 'career_pathway_dashboard.py'
+    
+    if not script_path.exists():
+        print("❌ Career pathway dashboard not found")
+        return False
+    
+    try:
+        subprocess.run(['streamlit', 'run', str(script_path)])
+    except FileNotFoundError:
+        print("❌ Streamlit not found!")
+        print("   Install with: pip install streamlit plotly pandas")
+    except KeyboardInterrupt:
+        print("\n✓ Dashboard stopped")
+
+
+def generate_career_pathway_report():
+    """Generate Career Pathway HTML report."""
+    print("\n🔄 Generating Career Pathway HTML report...")
+    script_path = Path(__file__).parent / 'generate_career_pathway_report.py'
+    
+    try:
+        result = subprocess.run([sys.executable, str(script_path)], check=True)
+        
+        # Find and open the generated report
+        dashboard_dir = Path(__file__).parent
+        html_files = list(dashboard_dir.glob('career_pathway_report_*.html'))
+        
+        if html_files:
+            latest = max(html_files, key=lambda p: p.stat().st_mtime)
+            print(f"\n✅ Report generated: {latest.name}")
+            print(f"   Opening in browser...")
+            subprocess.run(['open', str(latest)])
+        
+        return result.returncode == 0
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Error generating report: {e}")
+        return False
+
+
 def main():
     """Main launcher function."""
     print_header()
@@ -109,7 +153,7 @@ def main():
         print_menu()
         
         try:
-            choice = input("Enter your choice (1-6): ").strip()
+            choice = input("Enter your choice (1-8): ").strip()
         except KeyboardInterrupt:
             print("\n\n👋 Goodbye!")
             sys.exit(0)
@@ -136,11 +180,18 @@ def main():
             launch_cv_screening()
             
         elif choice == '6':
+            launch_career_pathway()
+            
+        elif choice == '7':
+            generate_career_pathway_report()
+            input("\n✓ Press Enter to continue...")
+            
+        elif choice == '8':
             print("👋 Goodbye!")
             break
             
         else:
-            print("❌ Invalid choice. Please select 1-6.")
+            print("❌ Invalid choice. Please select 1-8.")
             input("Press Enter to continue...")
         
         print()

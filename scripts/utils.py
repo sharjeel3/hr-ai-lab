@@ -11,7 +11,7 @@ import os
 import json
 import csv
 from pathlib import Path
-from typing import Dict, List, Any, Optional
+from typing import Dict, List, Any, Optional, Tuple
 from datetime import datetime
 import logging
 
@@ -537,6 +537,234 @@ def get_dataset_path(dataset_name: str) -> Path:
 def get_results_path() -> Path:
     """Get path to results directory."""
     return get_project_root() / "results"
+
+
+# ============================================================================
+# Embedding and Vector Similarity Utilities (for Career Pathway Recommender)
+# ============================================================================
+
+class EmbeddingGenerator:
+    """
+    Generate embeddings for text using sentence-transformers.
+    Used for career pathway recommendations and skill matching.
+    """
+    
+    def __init__(self, model_name: str = "sentence-transformers/all-MiniLM-L6-v2"):
+        """
+        Initialize embedding generator.
+        
+        Args:
+            model_name: Name of the sentence-transformer model
+        """
+        try:
+            from sentence_transformers import SentenceTransformer
+            self.model = SentenceTransformer(model_name)
+            logger.info(f"Loaded embedding model: {model_name}")
+        except ImportError:
+            logger.error("sentence-transformers not installed. Run: pip install sentence-transformers")
+            self.model = None
+    
+    def encode(
+        self, 
+        texts: List[str], 
+        normalize: bool = True,
+        show_progress: bool = False
+    ) -> Optional[Any]:
+        """
+        Generate embeddings for a list of texts.
+        
+        Args:
+            texts: List of text strings to embed
+            normalize: Whether to normalize embeddings (for cosine similarity)
+            show_progress: Whether to show progress bar
+            
+        Returns:
+            Numpy array of embeddings or None if model not loaded
+        """
+        if not self.model:
+            logger.error("Embedding model not loaded")
+            return None
+        
+        try:
+            embeddings = self.model.encode(
+                texts,
+                normalize_embeddings=normalize,
+                show_progress_bar=show_progress
+            )
+            return embeddings
+        except Exception as e:
+            logger.error(f"Error generating embeddings: {e}")
+            return None
+    
+    def encode_single(self, text: str, normalize: bool = True) -> Optional[Any]:
+        """
+        Generate embedding for a single text.
+        
+        Args:
+            text: Text string to embed
+            normalize: Whether to normalize embedding
+            
+        Returns:
+            Numpy array embedding or None if model not loaded
+        """
+        return self.encode([text], normalize=normalize, show_progress=False)
+
+
+def cosine_similarity(embedding1: Any, embedding2: Any) -> float:
+    """
+    Calculate cosine similarity between two embeddings.
+    
+    Args:
+        embedding1: First embedding vector
+        embedding2: Second embedding vector
+        
+    Returns:
+        Cosine similarity score (0 to 1)
+    """
+    try:
+        import numpy as np
+        
+        # Ensure embeddings are numpy arrays
+        e1 = np.array(embedding1).flatten()
+        e2 = np.array(embedding2).flatten()
+        
+        # Calculate cosine similarity
+        dot_product = np.dot(e1, e2)
+        norm1 = np.linalg.norm(e1)
+        norm2 = np.linalg.norm(e2)
+        
+        if norm1 == 0 or norm2 == 0:
+            return 0.0
+        
+        similarity = dot_product / (norm1 * norm2)
+        return float(similarity)
+    except Exception as e:
+        logger.error(f"Error calculating cosine similarity: {e}")
+        return 0.0
+
+
+def batch_cosine_similarity(
+    query_embedding: Any, 
+    document_embeddings: Any
+) -> List[float]:
+    """
+    Calculate cosine similarity between a query and multiple documents.
+    
+    Args:
+        query_embedding: Query embedding vector
+        document_embeddings: Matrix of document embeddings
+        
+    Returns:
+        List of similarity scores
+    """
+    try:
+        import numpy as np
+        
+        query = np.array(query_embedding).flatten()
+        docs = np.array(document_embeddings)
+        
+        # Handle single embedding case
+        if len(docs.shape) == 1:
+            docs = docs.reshape(1, -1)
+        
+        # Calculate similarities
+        similarities = []
+        for doc in docs:
+            sim = cosine_similarity(query, doc)
+            similarities.append(sim)
+        
+        return similarities
+    except Exception as e:
+        logger.error(f"Error in batch cosine similarity: {e}")
+        return []
+
+
+def create_faiss_index(embeddings: Any, index_type: str = "flat") -> Optional[Any]:
+    """
+    Create a FAISS index for efficient similarity search.
+    
+    Args:
+        embeddings: Numpy array of embeddings (n_samples x dimension)
+        index_type: Type of index ('flat', 'ivf', 'hnsw')
+        
+    Returns:
+        FAISS index or None if failed
+    """
+    try:
+        import faiss
+        import numpy as np
+        
+        embeddings = np.array(embeddings).astype('float32')
+        dimension = embeddings.shape[1]
+        
+        if index_type == "flat":
+            # Exact search using inner product (for cosine similarity)
+            index = faiss.IndexFlatIP(dimension)
+        elif index_type == "ivf":
+            # Approximate search with inverted file index
+            nlist = min(100, len(embeddings) // 10)
+            quantizer = faiss.IndexFlatIP(dimension)
+            index = faiss.IndexIVFFlat(quantizer, dimension, nlist)
+            index.train(embeddings)
+        elif index_type == "hnsw":
+            # Hierarchical Navigable Small World graph
+            index = faiss.IndexHNSWFlat(dimension, 32)
+        else:
+            logger.error(f"Unknown index type: {index_type}")
+            return None
+        
+        # Normalize for cosine similarity
+        faiss.normalize_L2(embeddings)
+        
+        # Add embeddings to index
+        index.add(embeddings)
+        
+        logger.info(f"Created FAISS {index_type} index with {len(embeddings)} vectors, dimension {dimension}")
+        return index
+        
+    except ImportError:
+        logger.error("FAISS not installed. Run: pip install faiss-cpu")
+        return None
+    except Exception as e:
+        logger.error(f"Error creating FAISS index: {e}")
+        return None
+
+
+def search_faiss_index(
+    index: Any,
+    query_embedding: Any,
+    k: int = 5
+) -> Tuple[List[float], List[int]]:
+    """
+    Search FAISS index for k nearest neighbors.
+    
+    Args:
+        index: FAISS index
+        query_embedding: Query embedding vector
+        k: Number of nearest neighbors to return
+        
+    Returns:
+        Tuple of (similarities, indices)
+    """
+    try:
+        import faiss
+        import numpy as np
+        
+        query = np.array(query_embedding).astype('float32')
+        if len(query.shape) == 1:
+            query = query.reshape(1, -1)
+        
+        # Normalize query for cosine similarity
+        faiss.normalize_L2(query)
+        
+        # Search
+        similarities, indices = index.search(query, k)
+        
+        return similarities[0].tolist(), indices[0].tolist()
+        
+    except Exception as e:
+        logger.error(f"Error searching FAISS index: {e}")
+        return [], []
 
 
 if __name__ == "__main__":
